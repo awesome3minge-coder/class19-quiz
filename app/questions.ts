@@ -2737,7 +2737,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "制度更新”三库“更新（风险库、口径库、案例库）经验共享"
+        "text": "制度更新“三库”更新（风险库、口径库、案例库）经验共享"
       }
     ],
     "correct": [
@@ -2762,7 +2762,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "制度更新”三库“更新（风险库、口径库、案例库）经验共享"
+        "text": "制度更新“三库”更新（风险库、口径库、案例库）经验共享"
       },
       {
         "key": "D",
@@ -2808,19 +2808,19 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "放大镜里看舆情是：",
+    "prompt": "“放大镜里看舆情”是指：",
     "options": [
       {
         "key": "A",
-        "text": "中舆情，中舆情→把小舆情→大舆情，放大风险感知，自我加压"
+        "text": "只关注其他单位舆情，忽略自身风险"
       },
       {
         "key": "B",
-        "text": "大舆情，放大风险感知，自我加压→中舆情，中舆情→把小舆情"
+        "text": "认为小舆情不会发展，无需研判"
       },
       {
         "key": "C",
-        "text": "把吐槽、简单爆料当成大舆情（陷入“不是舆情当舆情”误区）"
+        "text": "没有舆情时主动制造舆情"
       },
       {
         "key": "D",
@@ -2984,7 +2984,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "颁布情况是：",
+    "prompt": "《中华人民共和国电力法》的颁布、施行与修正情况是：",
     "options": [
       {
         "key": "A",
@@ -3013,7 +3013,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“新修订《供电营业规则》自2024年6月1日起施行”，下列说法正确的是：",
+    "prompt": "新修订《供电营业规则》的施行时间和条文数量是：",
     "options": [
       {
         "key": "A",
@@ -3042,7 +3042,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“2009年11月26日电监会令第27号发布”，下列说法正确的是：",
+    "prompt": "《供电监管办法》的发布、施行和修订时间是：",
     "options": [
       {
         "key": "A",
@@ -3071,15 +3071,15 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“《供电监管办法》核心内容”，下列说法正确的是：",
+    "prompt": "《供电监管办法》明确的全国供电监管和行政执法主体是：",
     "options": [
       {
         "key": "A",
-        "text": "现场取证→费用追缴→中止供电→恢复送电"
+        "text": "供电企业自行履行全国供电监管职能"
       },
       {
         "key": "B",
-        "text": "“政府主导、责任明确、分级管理、重点保障”"
+        "text": "地方住建部门履行全国供电监管职能"
       },
       {
         "key": "C",
@@ -3087,7 +3087,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订"
+        "text": "国家发展改革委履行全部供电行政执法职能"
       }
     ],
     "correct": [
@@ -3129,7 +3129,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 5,
     "type": "single",
-    "prompt": "适用范围为：",
+    "prompt": "用电检查制度的适用范围是：",
     "options": [
       {
         "key": "A",
@@ -3158,7 +3158,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 5,
     "type": "single",
-    "prompt": "关于“产权责任划分”，下列说法正确的是：",
+    "prompt": "用电检查的产权责任划分与隐患闭环要求是：",
     "options": [
       {
         "key": "A",
@@ -3216,7 +3216,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 6,
     "type": "single",
-    "prompt": "处理措施是：",
+    "prompt": "违约用电和窃电行为的处理措施是：",
     "options": [
       {
         "key": "A",
@@ -3245,7 +3245,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 6,
     "type": "multiple",
-    "prompt": "考试要求包括哪些内容？",
+    "prompt": "用电检查人员的考试取证要求包括：",
     "options": [
       {
         "key": "A",
@@ -3335,7 +3335,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 8,
     "type": "single",
-    "prompt": "关于“频率”，下列说法正确的是：",
+    "prompt": "电力系统频率的定义、我国标准及其反映的功率平衡关系是：",
     "options": [
       {
         "key": "A",
@@ -3376,7 +3376,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "承受张力，用于分段、终端、转角（P58）"
+        "text": "承受张力，用于分段、终端、转角"
       },
       {
         "key": "D",
@@ -3393,7 +3393,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“超高压输电通过提高电压、降低电流”，下列说法正确的是：",
+    "prompt": "超高压输电减少线路损耗的方式是：",
     "options": [
       {
         "key": "A",
@@ -3626,7 +3626,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电业务主要由电网规划与设计、输电线路建设、电力传输运行”，下列说法正确的是：",
+    "prompt": "输电业务的主要组成是：",
     "options": [
       {
         "key": "A",
@@ -3730,7 +3730,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "承受张力，用于分段、终端、转角（P58）"
+        "text": "承受张力，用于分段、终端、转角"
       }
     ],
     "correct": [
@@ -3759,7 +3759,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "承受张力，用于分段、终端、转角（P58）"
+        "text": "承受张力，用于分段、终端、转角"
       }
     ],
     "correct": [
@@ -3780,7 +3780,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "承受张力，用于分段、终端、转角（P58）"
+        "text": "承受张力，用于分段、终端、转角"
       },
       {
         "key": "C",
@@ -3809,7 +3809,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "承受张力，用于分段、终端、转角（P58）"
+        "text": "承受张力，用于分段、终端、转角"
       },
       {
         "key": "C",
@@ -3890,23 +3890,23 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“玻璃绝缘子因表面处于压缩预应力状态”，下列说法正确的是：",
+    "prompt": "玻璃绝缘子在运行中的零值检测要求是：",
     "options": [
       {
         "key": "A",
-        "text": "正常——定期全面查故障——事故后追因特殊——按需专项检"
+        "text": "自爆后无需及时更换"
       },
       {
         "key": "B",
-        "text": "紧急（24h）、重大（7天）、一般（3个月）、其他"
+        "text": "玻璃绝缘子不会发生自爆"
       },
       {
         "key": "C",
-        "text": "玻璃绝缘子因表面处于压缩预应力状态，一旦出现裂纹或电击穿便会自行破碎成小碎块（俗称“自爆”），便于零值检测，但需及时更换以防掉串。在运行中无需进行零值检测"
+        "text": "在运行中无需进行零值检测"
       },
       {
         "key": "D",
-        "text": "玻璃绝缘子因表面处于压缩预应力状态，一旦出现裂纹或电击穿便会自行破碎成小碎块（俗称“自爆”），便于零值检测，但需及时更换以防掉串。在停运中无需进行零值检测"
+        "text": "运行中必须逐片开展零值检测"
       }
     ],
     "correct": [
@@ -4067,28 +4067,30 @@ export const questions: Question[] = [
     "id": "kp065",
     "category": "输电线路",
     "page": 10,
-    "type": "single",
-    "prompt": "关于“重合闸动作情况”，下列说法正确的是：",
+    "type": "multiple",
+    "prompt": "输电线路重合闸动作情况包括：",
     "options": [
       {
         "key": "A",
-        "text": "重合成功、重合不成功和重合闸不动作。山火会导致重合闸成功率不高，甚至出现“重合闸成功后再次跳闸”的情况"
+        "text": "重合成功"
       },
       {
         "key": "B",
-        "text": "正常——定期全面查故障——事故后追因特殊——按需专项检"
+        "text": "重合不成功"
       },
       {
         "key": "C",
-        "text": "紧急（24h）、重大（7天）、一般（3个月）、其他"
+        "text": "重合闸不动作"
       },
       {
         "key": "D",
-        "text": "红外测温、接地电阻测量、绝缘子检测、污秽检测"
+        "text": "重合闸持续振荡"
       }
     ],
     "correct": [
-      "A"
+      "A",
+      "B",
+      "C"
     ],
     "answerText": "重合闸动作情况分为重合成功、重合不成功和重合闸不动作。山火会导致重合闸成功率不高，甚至出现“重合闸成功后再次跳闸”的情况。"
   },
@@ -4467,7 +4469,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "母线(类似水管）"
+        "text": "母线（类似水管）"
       }
     ],
     "correct": [
@@ -4742,28 +4744,30 @@ export const questions: Question[] = [
     "id": "kp088",
     "category": "变电运行",
     "page": 13,
-    "type": "single",
-    "prompt": "二次设备是：",
+    "type": "multiple",
+    "prompt": "下列哪些属于二次设备？",
     "options": [
       {
         "key": "A",
-        "text": "继电保护装置、安全自动装置、测控装置及监控系统（遥测、遥控、遥信、遥调）、直流系统"
+        "text": "继电保护装置"
       },
       {
         "key": "B",
-        "text": "可分为1000kV、750kV、500kV、220kV、110kV、10kV等"
+        "text": "消防设施"
       },
       {
         "key": "C",
-        "text": "通过自动化与信息化手段实现对一次设备的监测、控制、保护及通信"
+        "text": "安全自动装置"
       },
       {
         "key": "D",
-        "text": "消防设施、防小动物设施"
+        "text": "测控装置及监控系统"
       }
     ],
     "correct": [
-      "A"
+      "A",
+      "C",
+      "D"
     ],
     "answerText": "二次设备：继电保护装置、安全自动装置、测控装置及监控系统（遥测、遥控、遥信、遥调）、直流系统。"
   },
@@ -5035,7 +5039,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“配电网的中性点”，下列说法正确的是：",
+    "prompt": "配电网中性点是指：",
     "options": [
       {
         "key": "A",
@@ -5103,7 +5107,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "中压配网通常使用交联聚乙烯绝缘电力电缆(记住交联二字）"
+        "text": "中压配网通常使用交联聚乙烯绝缘电力电缆（记住交联二字）"
       },
       {
         "key": "C",
@@ -5417,23 +5421,23 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“中压配网通常使用交联聚乙烯绝缘电力电缆”，下列说法正确的是：",
+    "prompt": "中压配网通常采用的电力电缆是：",
     "options": [
       {
         "key": "A",
-        "text": "导体、绝缘层、护套三大部分，6kV以上电缆，导体和绝缘层外还有屏蔽层"
+        "text": "裸铝绞线"
       },
       {
         "key": "B",
-        "text": "终端和接头电缆终端通常称为电缆终端头，即终端=终端头：按环境分户内终端和户外终端"
+        "text": "普通塑料软线"
       },
       {
         "key": "C",
-        "text": "中压配网通常使用交联聚乙烯绝缘电力电缆(记住交联二字）"
+        "text": "交联聚乙烯绝缘电力电缆"
       },
       {
         "key": "D",
-        "text": "直埋敷设、排管敷设、沟道敷设敷设方法分为人力敷设和机械敷设"
+        "text": "油浸纸绝缘通信电缆"
       }
     ],
     "correct": [
@@ -5782,7 +5786,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "A相-黄色，B相-绿色，C相-红色，零线/中性线（N)-黑色"
+        "text": "A相-黄色，B相-绿色，C相-红色，零线/中性线（N）-黑色"
       },
       {
         "key": "D",
@@ -5807,7 +5811,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "A相-黄色，B相-绿色，C相-红色，零线/中性线（N)-黑色"
+        "text": "A相-黄色，B相-绿色，C相-红色，零线/中性线（N）-黑色"
       },
       {
         "key": "C",
@@ -5886,7 +5890,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“能切断额定负荷电流和一定的过载电流”，下列说法正确的是：",
+    "prompt": "高压负荷开关与断路器在开断电流能力上的区别是：",
     "options": [
       {
         "key": "A",
@@ -6060,7 +6064,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“高压开关柜五防装置”，下列说法正确的是：",
+    "prompt": "中压开关柜五防装置目前主要采用：",
     "options": [
       {
         "key": "A",
@@ -6072,7 +6076,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "电流互感器（CT)和电压互感器(PT)的统称"
+        "text": "电流互感器（CT）和电压互感器（PT）的统称"
       },
       {
         "key": "D",
@@ -6130,7 +6134,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "电流互感器（CT)和电压互感器(PT)的统称"
+        "text": "电流互感器（CT）和电压互感器（PT）的统称"
       },
       {
         "key": "D",
@@ -6177,7 +6181,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "电缆分接箱是：",
+    "prompt": "电缆分接箱的主要构成是：",
     "options": [
       {
         "key": "A",
@@ -6264,23 +6268,23 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“氧化锌避雷器”，下列说法正确的是：",
+    "prompt": "目前配电网常用的避雷器是：",
     "options": [
       {
         "key": "A",
-        "text": "氧化锌避雷器（目前常用）"
+        "text": "氧化锌避雷器"
       },
       {
         "key": "B",
-        "text": "防止带负荷分、合隔离开关"
+        "text": "接地电阻表"
       },
       {
         "key": "C",
-        "text": "限制过电压幅值，保护电气设备绝缘"
+        "text": "空气断路器"
       },
       {
         "key": "D",
-        "text": "主要由电缆附件构成的开关设备"
+        "text": "电压互感器"
       }
     ],
     "correct": [
@@ -6334,7 +6338,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "馈线终端（FTU)、站所终端（DTU)、配变监测终端(TTU)"
+        "text": "馈线终端（FTU）、站所终端（DTU）、配变监测终端（TTU）"
       },
       {
         "key": "D",
@@ -6414,7 +6418,7 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "馈线终端（FTU)、站所终端（DTU)、配变监测终端(TTU)"
+        "text": "馈线终端（FTU）、站所终端（DTU）、配变监测终端（TTU）"
       },
       {
         "key": "B",
@@ -6439,7 +6443,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“作为继电保护、配网自动化终端的电源”，下列说法正确的是：",
+    "prompt": "直流电源在配电自动化中的用途是：",
     "options": [
       {
         "key": "A",
@@ -6584,7 +6588,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“2025总装机容量 相比 2020 提高60%”，下列说法正确的是：",
+    "prompt": "2025年总装机容量相较2020年的增幅、全球占比及风光和煤电占比分别是：",
     "options": [
       {
         "key": "A",
@@ -6613,23 +6617,23 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“电力系统电源类型在碳中和目标与技术革命驱动下加速演变”，下列说法正确的是：",
+    "prompt": "碳中和目标与技术革命驱动下，电源类型演变形成的格局是：",
     "options": [
       {
         "key": "A",
-        "text": "电力系统电源类型在碳中和目标与技术革命驱动下加速演变，形成“基荷-调节-分布式”多元协同格局"
+        "text": "“基荷-调节-分布式”多元协同格局"
       },
       {
         "key": "B",
-        "text": "发电 → 输电 → 变电 → 配电→ 用电"
+        "text": "“无调节电源”固定格局"
       },
       {
         "key": "C",
-        "text": "负荷与电源的属性匹配难以趋同（新能源发电高峰在午间，用电高峰在晚间）"
+        "text": "“单一基荷”独立格局"
       },
       {
         "key": "D",
-        "text": "发电-输电-配电-用户-分布式发电（用户侧也可发电）"
+        "text": "“纯火电”集中格局"
       }
     ],
     "correct": [
@@ -6845,7 +6849,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "主要特征是：",
+    "prompt": "新型电力系统的主要特征是：",
     "options": [
       {
         "key": "A",
@@ -7079,7 +7083,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "挑战一是：",
+    "prompt": "新型电力系统面临的第一项挑战是：",
     "options": [
       {
         "key": "A",
@@ -7087,15 +7091,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "电力成本方面"
+        "text": "人员考勤方面"
       },
       {
         "key": "C",
-        "text": "风光电源先天性“缺陷”（间歇性、波动性）"
+        "text": "办公管理方面"
       },
       {
         "key": "D",
-        "text": "系统安全方面"
+        "text": "纸质档案方面"
       }
     ],
     "correct": [
@@ -7166,7 +7170,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "挑战二是：",
+    "prompt": "新型电力系统面临的第二项挑战是：",
     "options": [
       {
         "key": "A",
@@ -7253,7 +7257,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "挑战三是：",
+    "prompt": "新型电力系统面临的第三项挑战是：",
     "options": [
       {
         "key": "A",
@@ -7282,7 +7286,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“表面上风光发电来自大自然”，下列说法正确的是：",
+    "prompt": "风光发电表面成本给人的直观印象是：",
     "options": [
       {
         "key": "A",
@@ -7311,7 +7315,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "看不到的方面是：",
+    "prompt": "风光发电成本中不易直接看到的方面是：",
     "options": [
       {
         "key": "A",
@@ -7340,7 +7344,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“对煤炭的依赖逐年下降”，下列说法正确的是：",
+    "prompt": "未来对煤炭依赖的变化趋势是：",
     "options": [
       {
         "key": "A",
@@ -7398,7 +7402,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“电力占终端用能比重逐年提升”，下列说法正确的是：",
+    "prompt": "2060年电力占终端用能比重预计达到：",
     "options": [
       {
         "key": "A",
@@ -7427,7 +7431,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“2060年社会用电量可达15000TWh”，下列说法正确的是：",
+    "prompt": "2060年全社会用电量预计达到：",
     "options": [
       {
         "key": "A",
@@ -7690,7 +7694,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "三大关键技术是：",
+    "prompt": "能源互联网的三大关键技术是：",
     "options": [
       {
         "key": "A",
@@ -7698,15 +7702,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "(冷热电协同、提升消纳、源荷网储链接)"
+        "text": "纸质档案技术、人工抄表技术、手工统计技术"
       },
       {
         "key": "C",
-        "text": "依托先进的特高压输电和智能电网技术"
+        "text": "煤炭装卸技术、纸质审批技术、人工巡表技术"
       },
       {
         "key": "D",
-        "text": "实现“源荷网储”设备广泛链接，全面感知系统运行状态"
+        "text": "单向供电技术、离线记录技术、人工报表技术"
       }
     ],
     "correct": [
@@ -7723,7 +7727,7 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "(冷热电协同、提升消纳、源荷网储链接)"
+        "text": "（冷热电协同、提升消纳、源荷网储链接）"
       },
       {
         "key": "B",
@@ -7779,23 +7783,23 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“聚集分布式能源、储能、可控负荷”，下列说法正确的是：",
+    "prompt": "聚集分布式能源、储能和可控负荷的目的在于：",
     "options": [
       {
         "key": "A",
-        "text": "聚集分布式能源、储能、可控负荷，实现冷、热、电整体能源供应效益最大化"
+        "text": "实现冷、热、电整体能源供应效益最大化"
       },
       {
         "key": "B",
-        "text": "(冷热电协同、提升消纳、源荷网储链接)"
+        "text": "取消储能和可控负荷"
       },
       {
         "key": "C",
-        "text": "实现“源荷网储”设备广泛链接，全面感知系统运行状态"
+        "text": "只提高单一电源装机容量"
       },
       {
         "key": "D",
-        "text": "储能技术、电力电子技术、信息技术与通信技术"
+        "text": "切断冷、热、电之间的协同"
       }
     ],
     "correct": [
@@ -7837,23 +7841,23 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“实现“源荷网储”设备广泛链接”，下列说法正确的是：",
+    "prompt": "能源互联网全面感知系统运行状态的基础是：",
     "options": [
       {
         "key": "A",
-        "text": "储能技术、电力电子技术、信息技术与通信技术"
+        "text": "仅采集离线纸质记录"
       },
       {
         "key": "B",
-        "text": "实现“源荷网储”设备广泛链接，全面感知系统停运状态"
+        "text": "切断电源与负荷的联系"
       },
       {
         "key": "C",
-        "text": "(冷热电协同、提升消纳、源荷网储链接)"
+        "text": "停止储能设备接入"
       },
       {
         "key": "D",
-        "text": "实现“源荷网储”设备广泛链接，全面感知系统运行状态"
+        "text": "实现“源荷网储”设备广泛链接"
       }
     ],
     "correct": [
@@ -8040,7 +8044,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“按绝缘材料分油纸绝缘和挤包绝缘”，下列说法正确的是：",
+    "prompt": "按绝缘材料划分，电力电缆绝缘材料的分类和工作温度是：",
     "options": [
       {
         "key": "A",
@@ -8128,23 +8132,23 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电缆附件（终端头、中间接头）则负责连接和密封”，下列说法正确的是：",
+    "prompt": "电缆附件在电缆线路中的薄弱程度及故障占比是：",
     "options": [
       {
         "key": "A",
-        "text": "整个电缆线路的“薄弱环节”，运行中约70%的故障发生在附件处，因此其绝缘密封质量至关重要"
+        "text": "整个电缆线路的“薄弱环节”，运行中约70%的故障发生在附件处"
       },
       {
         "key": "B",
-        "text": "整个电缆线路的“薄弱环节”，运行中约65%的故障发生在附件处，因此其绝缘密封质量至关重要"
+        "text": "属于免维护环节，运行中不会在附件处发生故障"
       },
       {
         "key": "C",
-        "text": "整个电缆线路的“薄弱环节”，运行中约75%的故障发生在附件处，因此其绝缘密封质量至关重要"
+        "text": "不是薄弱环节，运行中约10%的故障发生在附件处"
       },
       {
         "key": "D",
-        "text": "整个电缆线路的“薄弱环节”，运行中约80%的故障发生在附件处，因此其绝缘密封质量至关重要"
+        "text": "属于次要环节，运行中约30%的故障发生在附件处"
       }
     ],
     "correct": [
@@ -8365,23 +8369,23 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 30,
     "type": "single",
-    "prompt": "关于“2019年首次提出”数字电网“”，下列说法正确的是：",
+    "prompt": "南方电网数字化、数智化建设的时间顺序是：",
     "options": [
       {
         "key": "A",
-        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化"
+        "text": "2019年首次提出“数字电网”，2025年全面完成数字化转型，2026年开展数智化"
       },
       {
         "key": "B",
-        "text": "2014年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化"
+        "text": "2014年首次提出“数字电网”，2025年全面完成数字化转型，2026年开展数智化"
       },
       {
         "key": "C",
-        "text": "2024年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化"
+        "text": "2024年首次提出“数字电网”，2025年全面完成数字化转型，2026年开展数智化"
       },
       {
         "key": "D",
-        "text": "2029年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化"
+        "text": "2029年首次提出“数字电网”，2025年全面完成数字化转型，2026年开展数智化"
       }
     ],
     "correct": [
@@ -8482,28 +8486,30 @@ export const questions: Question[] = [
     "id": "kp216",
     "category": "数字化与人工智能",
     "page": 31,
-    "type": "single",
-    "prompt": "五转是：",
+    "type": "multiple",
+    "prompt": "数智化落地“五转”包括：",
     "options": [
       {
         "key": "A",
-        "text": "转意识、转组织、转方法、转模式、转文化"
+        "text": "转意识"
       },
       {
         "key": "B",
-        "text": "2基础+4位一体+2能力+1生态（基础设施+数据资产"
+        "text": "转纸质"
       },
       {
         "key": "C",
-        "text": "三类赛马（算力赛马、算法赛马、场景揭榜挂帅）"
+        "text": "转组织"
       },
       {
         "key": "D",
-        "text": "能力断层、信任缺失、利益冲突"
+        "text": "转方法"
       }
     ],
     "correct": [
-      "A"
+      "A",
+      "C",
+      "D"
     ],
     "answerText": "五转：转意识、转组织、转方法、转模式、转文化。"
   },
@@ -8512,23 +8518,23 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "九个基本认识是：",
+    "prompt": "九个基本认识中，数字化转型的本质是：",
     "options": [
       {
         "key": "A",
-        "text": "（PPT43页）数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革"
+        "text": "数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革"
       },
       {
         "key": "B",
-        "text": "（PPT48页）数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革"
+        "text": "仅对现有系统进行改名"
       },
       {
         "key": "C",
-        "text": "（PPT53页）数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革"
+        "text": "只增加人工审批环节"
       },
       {
         "key": "D",
-        "text": "（PPT38页）数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革"
+        "text": "只更换办公终端设备"
       }
     ],
     "correct": [
@@ -8584,7 +8590,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "人巡→机巡(2-3倍)→智巡(4-5倍)"
+        "text": "人巡→机巡（2-3倍）→智巡（4-5倍）"
       },
       {
         "key": "D",
@@ -8632,7 +8638,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "运营机制是：",
+    "prompt": "数智化转型的运营机制是：",
     "options": [
       {
         "key": "A",
@@ -8640,15 +8646,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "转意识、转组织、转方法、转模式、转文化"
+        "text": "只开展算力赛马"
       },
       {
         "key": "C",
-        "text": "2基础+4位一体+2能力+1生态（基础设施+数据资产"
+        "text": "取消算法赛马"
       },
       {
         "key": "D",
-        "text": "数字电网/服务/运营/产业"
+        "text": "停止场景揭榜挂帅"
       }
     ],
     "correct": [
@@ -8661,7 +8667,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“企业数字化转型成功率仅约20%”，下列说法正确的是：",
+    "prompt": "企业数字化转型成功率及2021年我国转型成效显著企业占比分别是：",
     "options": [
       {
         "key": "A",
@@ -8778,7 +8784,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 33,
     "type": "single",
-    "prompt": "用户性质是：",
+    "prompt": "客户按用户性质分类包括：",
     "options": [
       {
         "key": "A",
@@ -9012,7 +9018,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "核心目标是：",
+    "prompt": "业扩管理的核心目标是：",
     "options": [
       {
         "key": "A",
@@ -9041,7 +9047,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "业务类型是：",
+    "prompt": "业扩业务类型是：",
     "options": [
       {
         "key": "A",
@@ -9976,7 +9982,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 49,
     "type": "single",
-    "prompt": "互感器是：",
+    "prompt": "互感器按测量对象可分为：",
     "options": [
       {
         "key": "A",
@@ -10324,7 +10330,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“正常运行频率偏差不得超过±0.2Hz”，下列说法正确的是：",
+    "prompt": "联网省区正常运行的频率偏差限值是：",
     "options": [
       {
         "key": "A",
@@ -10353,7 +10359,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“独立运行电网装机容量小于3000MW时”，下列说法正确的是：",
+    "prompt": "装机容量小于3000MW的独立运行电网，正常频率偏差限值是：",
     "options": [
       {
         "key": "A",
@@ -10526,27 +10532,29 @@ export const questions: Question[] = [
     "id": "kp286",
     "category": "配网调度",
     "page": 55,
-    "type": "single",
-    "prompt": "关于“设备四大状态”，下列说法正确的是：",
+    "type": "multiple",
+    "prompt": "设备四大状态包括：",
     "options": [
       {
         "key": "A",
-        "text": "状态检修→带电作业→转供电→合并停电事件→停电时间定额→重大停电审查"
+        "text": "冷备用状态"
       },
       {
         "key": "B",
-        "text": "停运状态（类比“热水器运行”）热备用状态（类比“热水器关开关”）冷备用状态（类比“热水器拔插头”）检修状态（类比“热水器维修及绑绝缘胶带”）"
+        "text": "热备用状态"
       },
       {
         "key": "C",
-        "text": "发电项目的运行状态可被实时监控，包括设备性能、环境参数、电力输出等关键数据"
+        "text": "报废状态"
       },
       {
         "key": "D",
-        "text": "运行状态（类比“热水器运行”）热备用状态（类比“热水器关开关”）冷备用状态（类比“热水器拔插头”）检修状态（类比“热水器维修及绑绝缘胶带”）"
+        "text": "运行状态"
       }
     ],
     "correct": [
+      "A",
+      "B",
       "D"
     ],
     "answerText": "运行状态（类比“热水器运行”）热备用状态（类比“热水器关开关”）冷备用状态（类比“热水器拔插头”）检修状态（类比“热水器维修及绑绝缘胶带”）"
@@ -10630,7 +10638,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "可理解为“供电所员工申请操作，调度机构同意开展作业“"
+        "text": "可理解为“供电所员工申请操作，调度机构同意开展作业”"
       }
     ],
     "correct": [
@@ -10684,7 +10692,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "可理解为“供电所员工申请操作，调度机构同意开展作业“"
+        "text": "可理解为“供电所员工申请操作，调度机构同意开展作业”"
       },
       {
         "key": "D",
@@ -10962,7 +10970,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“根据《中华人民共和国能源法》及相关规定，小型水电站”，下列说法正确的是：",
+    "prompt": "根据《中华人民共和国能源法》及相关规定，小型水电站的单站装机容量界限是：",
     "options": [
       {
         "key": "A",
@@ -11182,7 +11190,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "停电进行的局部检查（B1)，或停电/不停电进行周期性的试验工作(B2)"
+        "text": "停电进行的局部检查（B1），或停电/不停电进行周期性的试验工作（B2）"
       }
     ],
     "correct": [
@@ -11199,19 +11207,19 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "停电进行的局部检查（B1)，或停电/不停电进行周期性的试验工作(B2)"
+        "text": "停电进行的局部检查（B1），或停电/不停电进行周期性的试验工作（B2）"
       },
       {
         "key": "B",
-        "text": "停电进行的局部检查（B2)，或停电/不停电进行周期性的试验工作(B2)"
+        "text": "停电进行的局部检查（B2），或停电/不停电进行周期性的试验工作（B2）"
       },
       {
         "key": "C",
-        "text": "停电进行的局部检查（B3)，或停电/不停电进行周期性的试验工作(B2)"
+        "text": "停电进行的局部检查（B3），或停电/不停电进行周期性的试验工作（B2）"
       },
       {
         "key": "D",
-        "text": "停电进行的局部检查（B4)，或停电/不停电进行周期性的试验工作(B2)"
+        "text": "停电进行的局部检查（B4），或停电/不停电进行周期性的试验工作（B2）"
       }
     ],
     "correct": [
@@ -11845,7 +11853,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“风力发电的能量转化效率理论极限”，下列说法正确的是：",
+    "prompt": "风力发电的贝茨理论效率极限及实际效率范围是：",
     "options": [
       {
         "key": "A",
@@ -12107,7 +12115,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 71,
     "type": "single",
-    "prompt": "核能发电的原理是：",
+    "prompt": "核能发电的能量转换过程首先是：",
     "options": [
       {
         "key": "A",
@@ -12115,15 +12123,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "大型水电站效率80~90%"
+        "text": "电能转换为核能"
       },
       {
         "key": "C",
-        "text": "核裂变（主要发电方式）、核聚变核电站效率30~35%"
+        "text": "核能直接转换为机械能"
       },
       {
         "key": "D",
-        "text": "反击式和冲击式"
+        "text": "化学能转换为核能"
       }
     ],
     "correct": [
@@ -12404,7 +12412,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链由成本效率和安全稳定并重”，下列说法正确的是：",
+    "prompt": "供应链发展侧重点的转变是：",
     "options": [
       {
         "key": "A",
@@ -12462,7 +12470,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "基础设施是：",
+    "prompt": "现代物流体系架构的基础设施是：",
     "options": [
       {
         "key": "A",
@@ -12491,7 +12499,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "物质基础是：",
+    "prompt": "现代物流体系架构的物质基础是：",
     "options": [
       {
         "key": "A",
@@ -12520,7 +12528,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "核心引擎是：",
+    "prompt": "现代物流体系架构的核心引擎是：",
     "options": [
       {
         "key": "A",
@@ -12549,7 +12557,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关键驱动是：",
+    "prompt": "现代物流体系架构的关键驱动是：",
     "options": [
       {
         "key": "A",
@@ -12578,7 +12586,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "新发力点是：",
+    "prompt": "现代物流体系架构的新发力点是：",
     "options": [
       {
         "key": "A",
@@ -12607,7 +12615,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“推行库存精益管理”，下列说法正确的是：",
+    "prompt": "库存精益管理的作用是：",
     "options": [
       {
         "key": "A",
@@ -12636,23 +12644,23 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“加强设备退役、再利用、处置等全过程管理”，下列说法正确的是：",
+    "prompt": "逆向物资全过程管理包括：",
     "options": [
       {
         "key": "A",
-        "text": "五星示范、五星、四星、三星、二星、一星"
+        "text": "闲置物资只做线下登记，不开展线上处置"
       },
       {
         "key": "B",
-        "text": "现代物流要关注需求计划、供应计划、库存计划衔接"
+        "text": "退役设备一律直接报废，不再评估再利用"
       },
       {
         "key": "C",
-        "text": "逆向物资管理"
+        "text": "报废物资不纳入处置效率和规范管理"
       },
       {
         "key": "D",
-        "text": "加强设备退役、再利用、处置等全过程管理，推动闲置物资、报废物资处置线上化，提升闲置物资再利用及报废物资处置效率、效益及规范水平"
+        "text": "加强设备退役、再利用、处置等全过程管理"
       }
     ],
     "correct": [

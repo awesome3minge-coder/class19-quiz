@@ -6,7 +6,162 @@ const manualOverrides = {
     correctTexts: ['观点先于事实', '情感大于理性'],
     wrongTexts: ['事实先于观点', '理性大于情感'],
   },
+  kp022: {
+    prompt: '“放大镜里看舆情”是指：',
+    correctTexts: ['把小舆情→中舆情，中舆情→大舆情，放大风险感知，自我加压'],
+    wrongTexts: ['认为小舆情不会发展，无需研判', '只关注其他单位舆情，忽略自身风险', '没有舆情时主动制造舆情'],
+  },
+  kp031: {
+    prompt: '《供电监管办法》明确的全国供电监管和行政执法主体是：',
+    correctTexts: ['国家能源局履行全国供电监管和行政执法职能'],
+    wrongTexts: ['国家发展改革委履行全部供电行政执法职能', '供电企业自行履行全国供电监管职能', '地方住建部门履行全国供电监管职能'],
+  },
+  kp059: {
+    prompt: '玻璃绝缘子在运行中的零值检测要求是：',
+    correctTexts: ['在运行中无需进行零值检测'],
+    wrongTexts: ['运行中必须逐片开展零值检测', '自爆后无需及时更换', '玻璃绝缘子不会发生自爆'],
+  },
+  kp065: {
+    prompt: '输电线路重合闸动作情况包括：',
+    correctTexts: ['重合成功', '重合不成功', '重合闸不动作'],
+    wrongTexts: ['重合闸持续振荡'],
+  },
+  kp088: {
+    prompt: '下列哪些属于二次设备？',
+    correctTexts: ['继电保护装置', '安全自动装置', '测控装置及监控系统'],
+    wrongTexts: ['消防设施'],
+  },
+  kp111: {
+    prompt: '中压配网通常采用的电力电缆是：',
+    correctTexts: ['交联聚乙烯绝缘电力电缆'],
+    wrongTexts: ['油浸纸绝缘通信电缆', '裸铝绞线', '普通塑料软线'],
+  },
+  kp140: {
+    prompt: '目前配电网常用的避雷器是：',
+    correctTexts: ['氧化锌避雷器'],
+    wrongTexts: ['空气断路器', '电压互感器', '接地电阻表'],
+  },
+  kp152: {
+    prompt: '碳中和目标与技术革命驱动下，电源类型演变形成的格局是：',
+    correctTexts: ['“基荷-调节-分布式”多元协同格局'],
+    wrongTexts: ['“单一基荷”独立格局', '“纯火电”集中格局', '“无调节电源”固定格局'],
+  },
+  kp168: {
+    prompt: '新型电力系统面临的第一项挑战是：',
+    correctTexts: ['电力供应方面'],
+    wrongTexts: ['办公管理方面', '纸质档案方面', '人员考勤方面'],
+  },
+  kp189: {
+    prompt: '能源互联网的三大关键技术是：',
+    correctTexts: ['储能技术、电力电子技术、信息技术与通信技术'],
+    wrongTexts: ['纸质档案技术、人工抄表技术、手工统计技术', '煤炭装卸技术、纸质审批技术、人工巡表技术', '单向供电技术、离线记录技术、人工报表技术'],
+  },
+  kp192: {
+    prompt: '聚集分布式能源、储能和可控负荷的目的在于：',
+    correctTexts: ['实现冷、热、电整体能源供应效益最大化'],
+    wrongTexts: ['只提高单一电源装机容量', '切断冷、热、电之间的协同', '取消储能和可控负荷'],
+  },
+  kp194: {
+    prompt: '能源互联网全面感知系统运行状态的基础是：',
+    correctTexts: ['实现“源荷网储”设备广泛链接'],
+    wrongTexts: ['切断电源与负荷的联系', '仅采集离线纸质记录', '停止储能设备接入'],
+  },
+  kp204: {
+    prompt: '电缆附件在电缆线路中的薄弱程度及故障占比是：',
+    correctTexts: ['整个电缆线路的“薄弱环节”，运行中约70%的故障发生在附件处'],
+    wrongTexts: ['不是薄弱环节，运行中约10%的故障发生在附件处', '属于次要环节，运行中约30%的故障发生在附件处', '属于免维护环节，运行中不会在附件处发生故障'],
+  },
+  kp216: {
+    prompt: '数智化落地“五转”包括：',
+    correctTexts: ['转意识', '转组织', '转方法'],
+    wrongTexts: ['转纸质'],
+  },
+  kp217: {
+    prompt: '九个基本认识中，数字化转型的本质是：',
+    correctTexts: ['数字化转型的本质是一场涉及生产力与生产关系重构的系统性变革'],
+    wrongTexts: ['仅对现有系统进行改名', '只增加人工审批环节', '只更换办公终端设备'],
+  },
+  kp221: {
+    prompt: '数智化转型的运营机制是：',
+    correctTexts: ['三类赛马（算力赛马、算法赛马、场景揭榜挂帅）'],
+    wrongTexts: ['只开展算力赛马', '取消算法赛马', '停止场景揭榜挂帅'],
+  },
+  kp286: {
+    prompt: '设备四大状态包括：',
+    correctTexts: ['运行状态', '热备用状态', '冷备用状态'],
+    wrongTexts: ['报废状态'],
+  },
+  kp340: {
+    prompt: '核能发电的能量转换过程首先是：',
+    correctTexts: ['核能转换为热能'],
+    wrongTexts: ['核能直接转换为机械能', '化学能转换为核能', '电能转换为核能'],
+  },
+  kp358: {
+    prompt: '逆向物资全过程管理包括：',
+    correctTexts: ['加强设备退役、再利用、处置等全过程管理'],
+    wrongTexts: ['退役设备一律直接报废，不再评估再利用', '闲置物资只做线下登记，不开展线上处置', '报废物资不纳入处置效率和规范管理'],
+  },
 };
+
+const promptOverrides = new Map(Object.entries({
+  kp028: '《中华人民共和国电力法》的颁布、施行与修正情况是：',
+  kp029: '新修订《供电营业规则》的施行时间和条文数量是：',
+  kp030: '《供电监管办法》的发布、施行和修订时间是：',
+  kp031: '《供电监管办法》明确的全国供电监管和行政执法主体是：',
+  kp033: '用电检查制度的适用范围是：',
+  kp034: '用电检查的产权责任划分与隐患闭环要求是：',
+  kp036: '违约用电和窃电行为的处理措施是：',
+  kp037: '用电检查人员的考试取证要求包括：',
+  kp040: '电力系统频率的定义、我国标准及其反映的功率平衡关系是：',
+  kp042: '超高压输电减少线路损耗的方式是：',
+  kp050: '输电业务的主要组成是：',
+  kp059: '玻璃绝缘子在运行中的零值检测要求是：',
+  kp065: '输电线路重合闸动作情况包括：',
+  kp098: '配电网中性点是指：',
+  kp111: '中压配网通常采用的电力电缆是：',
+  kp127: '高压负荷开关与断路器在开断电流能力上的区别是：',
+  kp133: '中压开关柜五防装置目前主要采用：',
+  kp137: '电缆分接箱的主要构成是：',
+  kp140: '目前配电网常用的避雷器是：',
+  kp146: '直流电源在配电自动化中的用途是：',
+  kp151: '2025年总装机容量相较2020年的增幅、全球占比及风光和煤电占比分别是：',
+  kp152: '碳中和目标与技术革命驱动下，电源类型演变形成的格局是：',
+  kp160: '新型电力系统的主要特征是：',
+  kp168: '新型电力系统面临的第一项挑战是：',
+  kp171: '新型电力系统面临的第二项挑战是：',
+  kp174: '新型电力系统面临的第三项挑战是：',
+  kp175: '风光发电表面成本给人的直观印象是：',
+  kp176: '风光发电成本中不易直接看到的方面是：',
+  kp177: '未来对煤炭依赖的变化趋势是：',
+  kp179: '2060年电力占终端用能比重预计达到：',
+  kp180: '2060年全社会用电量预计达到：',
+  kp189: '能源互联网的三大关键技术是：',
+  kp192: '聚集分布式能源、储能和可控负荷的目的在于：',
+  kp194: '能源互联网全面感知系统运行状态的基础是：',
+  kp201: '按绝缘材料划分，电力电缆绝缘材料的分类和工作温度是：',
+  kp204: '电缆附件在电缆线路中的薄弱程度及故障占比是：',
+  kp212: '南方电网数字化、数智化建设的时间顺序是：',
+  kp217: '九个基本认识中，数字化转型的本质是：',
+  kp221: '数智化转型的运营机制是：',
+  kp222: '企业数字化转型成功率及2021年我国转型成效显著企业占比分别是：',
+  kp226: '客户按用户性质分类包括：',
+  kp234: '业扩管理的核心目标是：',
+  kp235: '业扩业务类型是：',
+  kp267: '互感器按测量对象可分为：',
+  kp279: '联网省区正常运行的频率偏差限值是：',
+  kp280: '装机容量小于3000MW的独立运行电网，正常频率偏差限值是：',
+  kp286: '设备四大状态包括：',
+  kp301: '根据《中华人民共和国能源法》及相关规定，小型水电站的单站装机容量界限是：',
+  kp331: '风力发电的贝茨理论效率极限及实际效率范围是：',
+  kp350: '供应链发展侧重点的转变是：',
+  kp352: '现代物流体系架构的基础设施是：',
+  kp353: '现代物流体系架构的物质基础是：',
+  kp354: '现代物流体系架构的核心引擎是：',
+  kp355: '现代物流体系架构的关键驱动是：',
+  kp356: '现代物流体系架构的新发力点是：',
+  kp357: '库存精益管理的作用是：',
+  kp358: '逆向物资全过程管理包括：',
+}));
 
 const manualOverridesByText = new Map([
   ['国资央企面临的舆论环境：身处舆论场中央，受关注度高；社会舆论容忍度低；是自然人，更是企业人，要有谨慎言行的“被围观意识”。', {
@@ -539,6 +694,25 @@ function withoutTerminal(value) {
   return value.trim().replace(/[。；;，,：:]$/g, '').trim();
 }
 
+function tidyOptionText(value) {
+  let result = value
+    .replace(/\(/g, '（')
+    .replace(/\)/g, '）')
+    .replace(/（P\d+）/gi, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const directionalQuoteCount = (result.match(/[“”]/g) ?? []).length;
+  if (directionalQuoteCount % 2 === 0 && directionalQuoteCount > 0) {
+    let opening = true;
+    result = result.replace(/[“”]/g, () => {
+      const quote = opening ? '“' : '”';
+      opening = !opening;
+      return quote;
+    });
+  }
+  return result;
+}
+
 function splitFirst(value, pattern) {
   const match = value.match(pattern);
   if (!match || match.index === undefined) return null;
@@ -894,8 +1068,8 @@ export function buildExamQuestion(point, index, points) {
     category: point.category,
     page: point.page,
     type: correctTexts.length > 1 ? 'multiple' : 'single',
-    prompt: parsed.prompt,
-    options: entries.map((entry, optionIndex) => ({ key: OPTION_KEYS[optionIndex], text: entry.text })),
+    prompt: promptOverrides.get(id) ?? parsed.prompt,
+    options: entries.map((entry, optionIndex) => ({ key: OPTION_KEYS[optionIndex], text: tidyOptionText(entry.text) })),
     correct: entries.flatMap((entry, optionIndex) => entry.correct ? [OPTION_KEYS[optionIndex]] : []),
     answerText: point.text,
   };

@@ -11,7 +11,9 @@
     "build:static": "vite build --config mirror/vite.config.ts",
     "start": "vinext start",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
-    "audit:questions": "node scripts/audit-question-bank.mjs"
+    "audit:questions": "node scripts/audit-question-bank.mjs tmp/pdfs/layout.txt tmp/pdfs/raw.txt app/questions.ts",
+    "audit:semantics": "node scripts/audit-question-semantics.mjs app/questions.ts",
+    "audit:all": "npm run audit:questions && npm run audit:semantics"
   },
   "dependencies": {
     "next": "16.2.6",
