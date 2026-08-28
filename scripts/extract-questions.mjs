@@ -160,24 +160,6 @@ const overrides = {
     { key: 'A', text: '储能技术' }, { key: 'B', text: '电力电子技术' },
     { key: 'C', text: '信息技术与通信技术' }, { key: 'D', text: '电压调控技术' },
   ] },
-  q068: { options: [
-    { key: 'A', text: '公开' }, { key: 'B', text: '公平' },
-    { key: 'C', text: '效益优先' }, { key: 'D', text: '诚实信用' },
-  ] },
-  q069: { options: [
-    { key: 'A', text: '需要采用不可替代的专利' },
-    { key: 'B', text: '涉及抢险救灾' },
-    { key: 'C', text: '项目金额低于50万' },
-    { key: 'D', text: '采购人依法能够自行建设' },
-  ] },
-  q072: { options: [
-    { key: 'A', text: '100万元' }, { key: 'B', text: '200万元' },
-    { key: 'C', text: '300万元' }, { key: 'D', text: '400万元' },
-  ] },
-  q076: { options: [
-    { key: 'A', text: '30%～48%' }, { key: 'B', text: '50%～63%' },
-    { key: 'C', text: '70%～85%' }, { key: 'D', text: '80%～90%' },
-  ] },
 };
 
 for (const question of questions) {

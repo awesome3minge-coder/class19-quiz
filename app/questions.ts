@@ -1846,35 +1846,6 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "公开"
-      },
-      {
-        "key": "B",
-        "text": "公平"
-      },
-      {
-        "key": "C",
-        "text": "效益优先"
-      },
-      {
-        "key": "D",
-        "text": "诚实信用"
-      }
-    ],
-    "correct": [
-      "C"
-    ],
-    "answerText": "C. 效益优先"
-  },
-  {
-    "id": "q069",
-    "category": "招标采购",
-    "page": 65,
-    "type": "single",
-    "prompt": "投标截止后投标人撤销投标文件的，招标人必须退还保证金",
-    "options": [
-      {
-        "key": "A",
         "text": "需要采用不可替代的专利"
       },
       {
@@ -1891,9 +1862,30 @@ export const questions: Question[] = [
       }
     ],
     "correct": [
+      "C"
+    ],
+    "answerText": "C. 项目金额低于50万"
+  },
+  {
+    "id": "q069",
+    "category": "招标采购",
+    "page": 65,
+    "type": "single",
+    "prompt": "投标截止后投标人撤销投标文件的，招标人必须退还保证金",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "correct": [
       "B"
     ],
-    "answerText": "B. 涉及抢险救灾"
+    "answerText": "PDF原文判定：错误"
   },
   {
     "id": "q070",
@@ -1964,25 +1956,25 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "100万元"
+        "text": "输电"
       },
       {
         "key": "B",
-        "text": "200万元"
+        "text": "变电"
       },
       {
         "key": "C",
-        "text": "300万元"
+        "text": "配电"
       },
       {
         "key": "D",
-        "text": "400万元"
+        "text": "用电"
       }
     ],
     "correct": [
       "B"
     ],
-    "answerText": "B. 200万元"
+    "answerText": "B. 变电"
   },
   {
     "id": "q073",
@@ -2072,25 +2064,17 @@ export const questions: Question[] = [
     "options": [
       {
         "key": "A",
-        "text": "30%～48%"
+        "text": "正确"
       },
       {
         "key": "B",
-        "text": "50%～63%"
-      },
-      {
-        "key": "C",
-        "text": "70%～85%"
-      },
-      {
-        "key": "D",
-        "text": "80%～90%"
+        "text": "错误"
       }
     ],
     "correct": [
       "A"
     ],
-    "answerText": "A. 30%～48%"
+    "answerText": "PDF原文判定：正确"
   },
   {
     "id": "q077",
