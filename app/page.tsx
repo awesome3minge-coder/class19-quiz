@@ -1,11 +1,12 @@
 'use client';
 
-import { useEffect, useMemo, useState, type CSSProperties } from 'react';
+import { useEffect, useMemo, useState, type CSSProperties, type FormEvent } from 'react';
 import { questions, type Question } from './questions';
 
 type Mode = 'all' | 'random' | 'wrong';
 type View = 'home' | 'quiz' | 'summary';
 type AnswerRecord = { attempts: number; lastCorrect: boolean };
+type SessionAnswer = { selected: string[]; isCorrect: boolean };
 type ProgressState = {
   answered: Record<string, AnswerRecord>;
   wrongIds: string[];
@@ -50,6 +51,8 @@ export default function Home() {
   const [submitted, setSubmitted] = useState(false);
   const [lastCorrect, setLastCorrect] = useState(false);
   const [sessionCorrect, setSessionCorrect] = useState(0);
+  const [sessionAnswers, setSessionAnswers] = useState<Record<string, SessionAnswer>>({});
+  const [jumpValue, setJumpValue] = useState('1');
   const [notice, setNotice] = useState('');
 
   useEffect(() => {
@@ -104,6 +107,8 @@ export default function Home() {
     setSubmitted(false);
     setLastCorrect(false);
     setSessionCorrect(0);
+    setSessionAnswers({});
+    setJumpValue('1');
     setNotice('');
     setView('quiz');
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -125,7 +130,13 @@ export default function Home() {
     const isCorrect = sameAnswer(selected, currentQuestion.correct);
     setSubmitted(true);
     setLastCorrect(isCorrect);
-    if (isCorrect) setSessionCorrect((value) => value + 1);
+    setSessionAnswers((previous) => ({
+      ...previous,
+      [currentQuestion.id]: { selected: [...selected], isCorrect },
+    }));
+    if (isCorrect && !sessionAnswers[currentQuestion.id]) {
+      setSessionCorrect((value) => value + 1);
+    }
 
     setProgress((previous) => {
       const wrongIds = new Set(previous.wrongIds);
@@ -147,17 +158,40 @@ export default function Home() {
     });
   }
 
+  function showQuestion(targetIndex: number) {
+    const boundedIndex = Math.min(Math.max(targetIndex, 0), sessionIds.length - 1);
+    if (boundedIndex === currentIndex) {
+      setJumpValue(String(boundedIndex + 1));
+      return;
+    }
+
+    const savedAnswer = sessionAnswers[sessionIds[boundedIndex]];
+    setCurrentIndex(boundedIndex);
+    setSelected(savedAnswer?.selected ?? []);
+    setSubmitted(Boolean(savedAnswer));
+    setLastCorrect(savedAnswer?.isCorrect ?? false);
+    setJumpValue(String(boundedIndex + 1));
+    window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
+  }
+
+  function previousQuestion() {
+    if (currentIndex > 0) showQuestion(currentIndex - 1);
+  }
+
   function nextQuestion() {
     if (currentIndex >= sessionIds.length - 1) {
       setView('summary');
       window.scrollTo({ top: 0, behavior: 'smooth' });
       return;
     }
-    setCurrentIndex((value) => value + 1);
-    setSelected([]);
-    setSubmitted(false);
-    setLastCorrect(false);
-    window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    showQuestion(currentIndex + 1);
+  }
+
+  function jumpToQuestion(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const targetNumber = Number.parseInt(jumpValue, 10);
+    if (!Number.isInteger(targetNumber) || targetNumber < 1 || targetNumber > sessionIds.length) return;
+    showQuestion(targetNumber - 1);
   }
 
   function returnHome() {
@@ -328,9 +362,26 @@ export default function Home() {
 
             <div className="question-footer">
               <span>{submitted ? `正确选项：${currentQuestion.correct.join('、')}` : selected.length ? `已选择：${[...selected].sort().join('、')}` : '请选择答案'}</span>
-              {!submitted
-                ? <button className="submit-button" disabled={!selected.length} onClick={submitAnswer}>提交答案</button>
-                : <button className="submit-button" onClick={nextQuestion}>{currentIndex === sessionIds.length - 1 ? '查看本轮结果' : '下一题 →'}</button>}
+              <div className="question-actions" aria-label="题目导航">
+                <button className="nav-button" disabled={currentIndex === 0} onClick={previousQuestion}>← 上一题</button>
+                <button className="nav-button" onClick={nextQuestion}>{currentIndex === sessionIds.length - 1 ? '查看结果' : '下一题 →'}</button>
+                <form className="jump-control" onSubmit={jumpToQuestion}>
+                  <label htmlFor="jump-question">跳到</label>
+                  <input
+                    id="jump-question"
+                    type="number"
+                    inputMode="numeric"
+                    min={1}
+                    max={sessionIds.length}
+                    value={jumpValue}
+                    onChange={(event) => setJumpValue(event.target.value)}
+                    aria-label={`输入 1 到 ${sessionIds.length} 之间的题号`}
+                  />
+                  <span>/ {sessionIds.length}</span>
+                  <button type="submit" disabled={!/^\d+$/.test(jumpValue) || Number(jumpValue) < 1 || Number(jumpValue) > sessionIds.length}>跳转</button>
+                </form>
+                {!submitted && <button className="submit-button" disabled={!selected.length} onClick={submitAnswer}>提交答案</button>}
+              </div>
             </div>
           </article>
         </section>
