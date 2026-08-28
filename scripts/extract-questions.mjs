@@ -1,9 +1,11 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { buildExamQuestion } from './knowledge-question-builder.mjs';
 
 const inputPath = process.argv[2];
 const outputPath = process.argv[3];
 const knowledgeInputPath = process.argv[4];
+const pointsOutputPath = process.argv[5];
 
 if (!inputPath || !outputPath) {
   throw new Error('Usage: node scripts/extract-questions.mjs <layout.txt> <output.ts> [raw.txt]');
@@ -296,43 +298,14 @@ function buildKnowledgeQuestions(rawText) {
       }
 
       const normalized = plain.replace(/[；;]$/, '').trim();
+      if (/^(?:变压器型号|电力调度的定义与机构设置)$/.test(normalized)) continue;
       if (normalized.length < 4 || normalized.length > 280 || seen.has(normalized)) continue;
       seen.add(normalized);
       points.push({ category, page: pageNumber, section, group, text: normalized });
     }
   });
 
-  const optionKeys = ['A', 'B', 'C', 'D'];
-  const questionsFromPoints = points.map((point, index) => {
-    const distractors = [];
-    const offsets = [17, 41, 73, 109, 151, 197, 239];
-
-    for (const offset of offsets) {
-      const candidate = points[(index + offset) % points.length];
-      if (!candidate || candidate.text === point.text || candidate.category === point.category) continue;
-      if (!distractors.includes(candidate.text)) distractors.push(candidate.text);
-      if (distractors.length === 3) break;
-    }
-    for (let cursor = 1; distractors.length < 3 && cursor < points.length; cursor += 1) {
-      const candidate = points[(index + cursor) % points.length];
-      if (candidate.text !== point.text && !distractors.includes(candidate.text)) distractors.push(candidate.text);
-    }
-
-    const correctPosition = index % 4;
-    const optionTexts = [...distractors];
-    optionTexts.splice(correctPosition, 0, point.text);
-
-    return {
-      id: `kp${String(index + 1).padStart(3, '0')}`,
-      category: point.category,
-      page: point.page,
-      type: 'single',
-      prompt: `以下哪项属于“${point.category}”知识板块的资料原文？`,
-      options: optionTexts.map((text, optionIndex) => ({ key: optionKeys[optionIndex], text })),
-      correct: [optionKeys[correctPosition]],
-      answerText: point.text,
-    };
-  });
+  const questionsFromPoints = points.map((point, index) => buildExamQuestion(point, index, points));
 
   return { points, questions: questionsFromPoints };
 }
@@ -340,6 +313,10 @@ function buildKnowledgeQuestions(rawText) {
 const knowledgeResult = knowledgeInputPath
   ? buildKnowledgeQuestions(fs.readFileSync(knowledgeInputPath, 'utf8'))
   : { points: [], questions: [] };
+if (pointsOutputPath) {
+  fs.mkdirSync(path.dirname(pointsOutputPath), { recursive: true });
+  fs.writeFileSync(pointsOutputPath, `${JSON.stringify(knowledgeResult.points, null, 2)}\n`, 'utf8');
+}
 const allQuestions = [...questions, ...knowledgeResult.questions];
 
 const invalid = allQuestions.filter((question) => {

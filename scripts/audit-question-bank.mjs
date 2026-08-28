@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { isGenericKnowledgePrompt } from './knowledge-question-builder.mjs';
 
 const layoutPath = process.argv[2];
 const rawPath = process.argv[3];
@@ -285,29 +286,36 @@ for (const question of questions) {
   }
 }
 
-const knowledgeByAnswer = new Map();
 for (const question of knowledge) {
-  const key = normalize(question.answerText);
-  const sources = knowledgeByAnswer.get(key) ?? [];
-  sources.push(question);
-  knowledgeByAnswer.set(key, sources);
-}
+  const selected = question.options.filter((option) => question.correct.includes(option.key));
+  const wrong = question.options.filter((option) => !question.correct.includes(option.key));
+  const answerNormalized = normalize(question.answerText);
 
-for (const question of knowledge) {
-  const selected = question.options.find((option) => option.key === question.correct[0]);
-  if (!selected || selected.text !== question.answerText) {
-    issue(errors, question, 'KNOWLEDGE_ANSWER_MISMATCH', `正确选项“${selected?.text ?? '缺失'}”，答案原文“${question.answerText}”`);
+  if (question.options.length !== 4) {
+    issue(errors, question, 'KNOWLEDGE_OPTION_COUNT', `知识题必须有4个选项，当前为${question.options.length}个`);
   }
-
-  const expectedPrompt = `以下哪项属于“${question.category}”知识板块的资料原文？`;
-  if (question.prompt !== expectedPrompt) {
-    issue(errors, question, 'KNOWLEDGE_PROMPT_FORMAT', `题库“${question.prompt}”，应为“${expectedPrompt}”`);
+  if (isGenericKnowledgePrompt(question.prompt) || /资料原文|知识板块|PDF原文/.test(question.prompt)) {
+    issue(errors, question, 'GENERIC_KNOWLEDGE_PROMPT', question.prompt);
+  }
+  for (const option of selected) {
+    const optionNormalized = normalize(option.text);
+    if (!optionNormalized || !answerNormalized.includes(optionNormalized)) {
+      issue(errors, question, 'CORRECT_OPTION_NOT_IN_ANSWER_SOURCE', `${option.key}. ${option.text}`);
+    }
+    if (optionNormalized.length >= 4 && normalize(question.prompt).includes(optionNormalized)) {
+      issue(errors, question, 'ANSWER_LEAKED_IN_PROMPT', `${option.key}. ${option.text}`);
+    }
+  }
+  for (const option of wrong) {
+    const optionNormalized = normalize(option.text);
+    if (optionNormalized.length >= 4 && answerNormalized.includes(optionNormalized)) {
+      issue(errors, question, 'WRONG_OPTION_IN_ANSWER_SOURCE', `${option.key}. ${option.text}`);
+    }
   }
 
   const pageText = (pages.get(question.page) ?? []).join('\n');
   const rawPageText = rawPages.get(question.page) ?? '';
   const categoryPageText = (sourceByPageCategory.get(`${question.page}:${question.category}`) ?? []).join('\n');
-  const answerNormalized = normalize(question.answerText);
   const pageNormalized = normalizeSource(pageText);
   const rawPageNormalized = normalizeSource(rawPageText);
   if (
@@ -319,24 +327,6 @@ for (const question of knowledge) {
   }
   if (!normalizeSource(categoryPageText).includes(answerNormalized)) {
     issue(errors, question, 'KNOWLEDGE_CATEGORY_MISMATCH', `答案原文不在 PDF 的“${question.category}”章节内：${question.answerText}`);
-  }
-
-
-  for (const option of question.options) {
-    const sources = knowledgeByAnswer.get(normalize(option.text)) ?? [];
-    if (!sources.length) {
-      issue(errors, question, 'OPTION_WITHOUT_PROVENANCE', `${option.key}. ${option.text}`);
-      continue;
-    }
-    if (!question.correct.includes(option.key) && sources.some((source) => source.category === question.category)) {
-      issue(warnings, question, 'DISTRACTOR_SAME_CATEGORY', `${option.key}. ${option.text}`);
-    }
-    if (
-      !question.correct.includes(option.key)
-      && normalizeSource(rawPageText).includes(normalize(option.text))
-    ) {
-      issue(warnings, question, 'DISTRACTOR_ON_SOURCE_PAGE', `${option.key}. ${option.text}`);
-    }
   }
 }
 

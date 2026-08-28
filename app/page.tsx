@@ -14,7 +14,7 @@ type ProgressState = {
   totalCorrect: number;
 };
 
-const STORAGE_KEY = 'class19-quiz-progress-v1';
+const STORAGE_KEY = 'class19-quiz-progress-v2';
 const EMPTY_PROGRESS: ProgressState = {
   answered: {},
   wrongIds: [],
