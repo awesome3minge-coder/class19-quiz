@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 const siteUrl = new URL(process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000');
@@ -20,6 +20,13 @@ export const metadata: Metadata = {
     description: '把重点，刷成得分点。支持单选、多选、答案原文与错题重刷。',
     images: ['/og.png'],
   },
+};
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  viewportFit: 'cover',
+  themeColor: '#173f35',
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

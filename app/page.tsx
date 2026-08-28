@@ -53,14 +53,18 @@ export default function Home() {
   const [notice, setNotice] = useState('');
 
   useEffect(() => {
-    try {
-      const saved = window.localStorage.getItem(STORAGE_KEY);
-      if (saved) setProgress({ ...EMPTY_PROGRESS, ...JSON.parse(saved) });
-    } catch {
-      setProgress(EMPTY_PROGRESS);
-    } finally {
-      setHydrated(true);
-    }
+    const timerId = window.setTimeout(() => {
+      try {
+        const saved = window.localStorage.getItem(STORAGE_KEY);
+        if (saved) setProgress({ ...EMPTY_PROGRESS, ...JSON.parse(saved) });
+      } catch {
+        setProgress(EMPTY_PROGRESS);
+      } finally {
+        setHydrated(true);
+      }
+    }, 0);
+
+    return () => window.clearTimeout(timerId);
   }, []);
 
   useEffect(() => {
@@ -153,6 +157,7 @@ export default function Home() {
     setSelected([]);
     setSubmitted(false);
     setLastCorrect(false);
+    window.requestAnimationFrame(() => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
 
   function returnHome() {
@@ -171,7 +176,7 @@ export default function Home() {
   }
 
   return (
-    <main className="app-shell">
+    <main className={`app-shell view-${view}`}>
       <header className="topbar">
         <button className="brand-button" onClick={returnHome} aria-label="返回首页">
           <span className="brand-mark">19</span>
@@ -262,6 +267,10 @@ export default function Home() {
         <section className="quiz-layout">
           <aside className="session-card">
             <button className="back-button" onClick={returnHome}>← 退出练习</button>
+            <div className="session-mobile-progress" aria-label={`第 ${currentIndex + 1} 题，共 ${sessionIds.length} 题`}>
+              <span>{modeLabel}</span>
+              <strong>{currentIndex + 1}<small> / {sessionIds.length}</small></strong>
+            </div>
             <p className="eyebrow">{modeLabel}</p>
             <div className="session-progress-ring" style={{ '--progress': `${((currentIndex + 1) / sessionIds.length) * 360}deg` } as CSSProperties}>
               <span><strong>{currentIndex + 1}</strong><small>/{sessionIds.length}</small></span>

@@ -25,29 +25,6 @@ for (let index = 0; index < rawLines.length; index += 1) {
 const questionPattern = /(?:💡\s*)?e\.?g\.\s*\d+/i;
 const noisePattern = /^(班|１９|理|整|重点整理-19班|⭐️|考点速记[：:]?)$/;
 
-const ranges = [
-  [0, 274, '舆情素养'],
-  [275, 659, '用电检查'],
-  [660, 916, '输电线路'],
-  [917, 1262, '变电运行'],
-  [1263, 2281, '配电运行'],
-  [2282, 2870, '新型电力系统'],
-  [2871, 3008, '电力电缆'],
-  [3009, 3199, '数字化与人工智能'],
-  [3200, 3893, '客户服务'],
-  [3894, 4239, '电能计量'],
-  [4240, 4462, '主网调度'],
-  [4463, 4770, '配网调度'],
-  [4771, 5231, '变电检修'],
-  [5232, 5541, '招标采购'],
-  [5542, 5817, '发电技术'],
-  [5818, Number.POSITIVE_INFINITY, '储能与供应链'],
-];
-
-function categoryFor(lineNumber) {
-  return ranges.find(([start, end]) => lineNumber >= start && lineNumber <= end)?.[2] ?? '综合';
-}
-
 function categoryForPage(pageNumber) {
   if (pageNumber <= 2) return '舆情素养';
   if (pageNumber <= 7) return '用电检查';
