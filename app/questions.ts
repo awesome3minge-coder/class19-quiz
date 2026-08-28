@@ -280,7 +280,7 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "PDF原文判定：错误（→ 错（是中压）"
+    "answerText": "PDF原文判定：错误（是中压）"
   },
   {
     "id": "q011",
@@ -378,7 +378,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "10kv配电网一般采用以配电变压器为中心的辐射型接线。(错→应该是低压配电网）",
+    "prompt": "10kv配电网一般采用以配电变压器为中心的辐射型接线",
     "options": [
       {
         "key": "A",
@@ -392,7 +392,7 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "PDF原文判定：错误（应为：应该是低压配电网）"
+    "answerText": "PDF原文判定：错误（应该是低压配电网）"
   },
   {
     "id": "q015",
@@ -1538,7 +1538,7 @@ export const questions: Question[] = [
   },
   {
     "id": "q057",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "multiple",
     "prompt": "关于检修类别包含关系，说法正确的有？",
@@ -1569,7 +1569,7 @@ export const questions: Question[] = [
   },
   {
     "id": "q058",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "single",
     "prompt": "设备需要停电进行的整体检查、维修、更换、试验工作，属于哪类检修？",
@@ -1675,7 +1675,7 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "PDF原文判定：错误（错误）"
+    "answerText": "PDF原文判定：错误"
   },
   {
     "id": "q062",
@@ -2099,7 +2099,7 @@ export const questions: Question[] = [
   },
   {
     "id": "q078",
-    "category": "储能技术",
+    "category": "发电技术",
     "page": 72,
     "type": "single",
     "prompt": "太阳能光伏发电的核心原理是？",
@@ -2128,7 +2128,7 @@ export const questions: Question[] = [
   },
   {
     "id": "q079",
-    "category": "储能技术",
+    "category": "发电技术",
     "page": 72,
     "type": "single",
     "prompt": "三种太阳能电池中转化效率最高的是？",
@@ -2191,7 +2191,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情素养提升第一课”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2220,7 +2220,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情素养提升第一课”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2249,7 +2249,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情素养提升第一课”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2278,7 +2278,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情素养提升第一课”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2307,7 +2307,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2336,7 +2336,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2365,7 +2365,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2394,7 +2394,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2423,7 +2423,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2452,7 +2452,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 公司舆情六大高发节点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2481,7 +2481,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 舆情工作三级领导责任”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2510,7 +2510,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 舆情工作三级领导责任”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2539,7 +2539,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 舆情工作三级领导责任”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2547,7 +2547,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
+        "text": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
       },
       {
         "key": "C",
@@ -2568,7 +2568,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 舆情工作三级领导责任”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2597,7 +2597,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 舆情工作三级领导责任”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2626,7 +2626,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 1,
     "type": "single",
-    "prompt": "关于“舆情素养提升第一课 / 声誉修复 4 步”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2655,7 +2655,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2684,7 +2684,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 固化经验”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2713,7 +2713,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 固化经验”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2742,7 +2742,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 固化经验”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2771,7 +2771,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情风险的四种不科学认知”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2800,7 +2800,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情风险的四种不科学认知”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2816,7 +2816,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
+        "text": "10kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
       }
     ],
     "correct": [
@@ -2829,7 +2829,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情风险的四种不科学认知”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2858,7 +2858,7 @@ export const questions: Question[] = [
     "category": "舆情素养",
     "page": 2,
     "type": "single",
-    "prompt": "关于“舆情素养 / 舆情风险的四种不科学认知”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“舆情素养”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2887,7 +2887,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2916,7 +2916,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2945,7 +2945,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -2974,7 +2974,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3003,7 +3003,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查 / 新《供电营业规则》修订要点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3032,7 +3032,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查 / 《供电监管办法》核心内容”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3040,7 +3040,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
+        "text": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
       },
       {
         "key": "C",
@@ -3054,14 +3054,14 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
+    "answerText": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
   },
   {
     "id": "kp031",
     "category": "用电检查",
     "page": 3,
     "type": "single",
-    "prompt": "关于“用电检查 / 《供电监管办法》核心内容”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3090,7 +3090,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 5,
     "type": "single",
-    "prompt": "关于“用电检查 / 用电检查制度概述”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3119,7 +3119,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 5,
     "type": "single",
-    "prompt": "关于“用电检查 / 用电检查制度概述”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3148,7 +3148,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 5,
     "type": "single",
-    "prompt": "关于“用电检查制度概述 / 核心原则”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3177,7 +3177,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 6,
     "type": "single",
-    "prompt": "关于“用电检查 / 隐患分级与处理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3206,7 +3206,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 6,
     "type": "single",
-    "prompt": "关于“用电检查 / 违约用电、窃电处理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3235,7 +3235,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 6,
     "type": "single",
-    "prompt": "关于“用电检查 / 用电检查人员资质管理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3264,7 +3264,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 7,
     "type": "single",
-    "prompt": "关于“用电检查 / 重要客户定义与分级”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3293,7 +3293,7 @@ export const questions: Question[] = [
     "category": "用电检查",
     "page": 7,
     "type": "single",
-    "prompt": "关于“用电检查 / 重要客户定义与分级”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“用电检查”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3322,7 +3322,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 8,
     "type": "single",
-    "prompt": "关于“输电线路 / 电力系统基础（输电线路知识)”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3351,7 +3351,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 8,
     "type": "single",
-    "prompt": "关于“输电线路 / 电力系统基础（输电线路知识)”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3380,7 +3380,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3409,7 +3409,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3438,7 +3438,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3467,7 +3467,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3496,7 +3496,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3525,7 +3525,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3554,7 +3554,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3583,7 +3583,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3612,7 +3612,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“输电线路 / 为什么需要超高压？”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3641,7 +3641,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 9,
     "type": "single",
-    "prompt": "关于“为什么需要超高压？ / 导地线主要分三类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3670,7 +3670,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3699,7 +3699,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔（按功能分）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3715,7 +3715,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "kV配电线路分支线和配电变压器最常用的一种短路保护开关"
+        "text": "10kV配电线路分支线和配电变压器最常用的一种短路保护开关"
       }
     ],
     "correct": [
@@ -3728,7 +3728,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔（按功能分）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3740,7 +3740,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
+        "text": "10kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
       },
       {
         "key": "D",
@@ -3757,7 +3757,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔（按功能分）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3786,7 +3786,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔（按功能分）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3815,7 +3815,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔（按功能分）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3844,7 +3844,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3873,7 +3873,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3902,7 +3902,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3931,7 +3931,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3960,7 +3960,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -3989,7 +3989,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4018,7 +4018,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4047,7 +4047,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4076,7 +4076,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 金具主要类型包括”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4105,7 +4105,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔接地电阻测量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4134,7 +4134,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔接地电阻测量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4163,7 +4163,7 @@ export const questions: Question[] = [
     "category": "输电线路",
     "page": 10,
     "type": "single",
-    "prompt": "关于“输电线路 / 杆塔接地电阻测量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“输电线路”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4192,7 +4192,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 主营业务篇”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4221,7 +4221,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 主营业务篇”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4250,7 +4250,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 变电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4279,7 +4279,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 变电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4308,7 +4308,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 变电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4337,7 +4337,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 变电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4366,7 +4366,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 11,
     "type": "single",
-    "prompt": "关于“变电运行 / 变电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4395,7 +4395,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“变电运行 / 三种巡视方式对比”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4424,11 +4424,11 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
+        "text": "10kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
       },
       {
         "key": "B",
@@ -4453,7 +4453,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4482,7 +4482,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4511,7 +4511,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4540,7 +4540,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4569,7 +4569,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4598,7 +4598,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4627,7 +4627,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4639,7 +4639,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "kV配电线路分支线和配电变压器最常用的一种短路保护开关"
+        "text": "10kV配电线路分支线和配电变压器最常用的一种短路保护开关"
       },
       {
         "key": "D",
@@ -4656,7 +4656,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4685,7 +4685,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 12,
     "type": "single",
-    "prompt": "关于“三种巡视方式对比 / 一次设备”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4714,7 +4714,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 13,
     "type": "single",
-    "prompt": "关于“变电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4743,7 +4743,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 13,
     "type": "single",
-    "prompt": "关于“变电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4772,7 +4772,7 @@ export const questions: Question[] = [
     "category": "变电运行",
     "page": 13,
     "type": "single",
-    "prompt": "关于“变电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4801,7 +4801,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 15,
     "type": "single",
-    "prompt": "关于“配电运行 / 标准电压等级电网”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4830,7 +4830,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 15,
     "type": "single",
-    "prompt": "关于“配电运行 / 标准电压等级电网”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4859,7 +4859,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4888,7 +4888,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4917,7 +4917,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电网接线方式”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4929,7 +4929,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
+        "text": "10kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
       },
       {
         "key": "D",
@@ -4939,14 +4939,14 @@ export const questions: Question[] = [
     "correct": [
       "C"
     ],
-    "answerText": "kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
+    "answerText": "10kv配电网：辐射型、环网型（单环网型和双环网型）、n供一备型和多分段n联络型"
   },
   {
     "id": "kp096",
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电网接线方式”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -4975,7 +4975,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 16,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电网接线方式”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5004,7 +5004,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“配电运行 / 中性点接地”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5020,7 +5020,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
+        "text": "220/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
       }
     ],
     "correct": [
@@ -5033,7 +5033,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“中性点接地 / 中性点接地方式常用有三种”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5049,7 +5049,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "220/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       }
     ],
     "correct": [
@@ -5062,7 +5062,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“配电运行 / 杆塔分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5074,7 +5074,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "10/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -5091,7 +5091,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“杆塔分类 / 按用途”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5120,7 +5120,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 17,
     "type": "single",
-    "prompt": "关于“杆塔分类 / 按用途”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5149,7 +5149,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 导线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5178,7 +5178,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 导线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5186,7 +5186,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
       },
       {
         "key": "C",
@@ -5207,7 +5207,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 导线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5236,7 +5236,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 拉线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5265,7 +5265,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 拉线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5294,7 +5294,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 拉线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5323,7 +5323,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 18,
     "type": "single",
-    "prompt": "关于“配电运行 / 拉线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5352,7 +5352,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5381,7 +5381,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5410,7 +5410,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5439,7 +5439,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5468,7 +5468,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5497,7 +5497,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆优缺点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5526,7 +5526,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆优缺点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5555,7 +5555,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 电缆优缺点”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5584,7 +5584,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 19,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电变压器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5613,7 +5613,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5642,7 +5642,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5671,7 +5671,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5700,7 +5700,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 预装式与组合式变电站”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5729,7 +5729,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 预装式与组合式变电站”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5758,7 +5758,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 母线”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5787,7 +5787,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 隔离开关”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5816,7 +5816,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压跌落式熔断器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5824,7 +5824,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "kV配电线路分支线和配电变压器最常用的一种短路保护开关"
+        "text": "10kV配电线路分支线和配电变压器最常用的一种短路保护开关"
       },
       {
         "key": "C",
@@ -5838,14 +5838,14 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "kV配电线路分支线和配电变压器最常用的一种短路保护开关"
+    "answerText": "10kV配电线路分支线和配电变压器最常用的一种短路保护开关"
   },
   {
     "id": "kp127",
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压负荷开关”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5874,7 +5874,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压负荷开关”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5903,7 +5903,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5932,7 +5932,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5961,7 +5961,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -5990,7 +5990,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6019,7 +6019,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6048,7 +6048,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6077,7 +6077,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6106,7 +6106,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6135,7 +6135,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 20,
     "type": "single",
-    "prompt": "关于“配电运行 / 高压开关柜五防装置”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6164,7 +6164,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6193,7 +6193,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6222,7 +6222,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 避雷器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6234,7 +6234,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
       },
       {
         "key": "D",
@@ -6251,7 +6251,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 避雷器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6280,7 +6280,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电自动化”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6309,7 +6309,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电自动化”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6338,7 +6338,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电自动化”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6367,7 +6367,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电自动化终端”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6396,7 +6396,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 配电自动化终端”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6425,7 +6425,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 直流电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6454,7 +6454,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 直流电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6483,7 +6483,7 @@ export const questions: Question[] = [
     "category": "配电运行",
     "page": 21,
     "type": "single",
-    "prompt": "关于“配电运行 / 直流电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配电运行”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6512,7 +6512,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 23,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统概述”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6541,7 +6541,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6570,7 +6570,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6599,7 +6599,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6628,7 +6628,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6657,7 +6657,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6686,7 +6686,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6715,7 +6715,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6744,7 +6744,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6773,7 +6773,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 24,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 负荷分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6802,7 +6802,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6831,7 +6831,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6860,7 +6860,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统发展三大原因”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6889,7 +6889,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统发展三大原因”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6918,7 +6918,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统发展三大原因”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6947,7 +6947,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 双碳目标与发展背景”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -6976,7 +6976,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 双碳目标与发展背景”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7005,7 +7005,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 双碳目标与发展背景”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7034,7 +7034,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 双碳目标与发展背景”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7063,7 +7063,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统发展挑战（三大方面）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7092,7 +7092,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 25,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统发展挑战（三大方面）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7121,7 +7121,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7150,11 +7150,11 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
       },
       {
         "key": "B",
@@ -7179,7 +7179,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7208,7 +7208,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7237,7 +7237,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7266,7 +7266,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7274,7 +7274,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
+        "text": "220/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
       },
       {
         "key": "C",
@@ -7295,7 +7295,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7307,7 +7307,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "220/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -7324,7 +7324,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 未来40年能源消费趋势”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7336,7 +7336,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "10/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -7353,7 +7353,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 未来40年能源消费趋势”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7382,7 +7382,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 未来40年能源消费趋势”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7411,7 +7411,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 未来40年能源消费趋势”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7440,7 +7440,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 未来40年能源消费趋势”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7469,7 +7469,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 数字电网（数字化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7498,7 +7498,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 数字电网（数字化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7527,7 +7527,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 数字电网（数字化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7556,7 +7556,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 26,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 数字电网（数字化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7585,7 +7585,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 智能电网（智能化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7614,7 +7614,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 智能电网（智能化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7643,7 +7643,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 智能电网（智能化）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7672,7 +7672,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7701,7 +7701,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7730,7 +7730,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7759,7 +7759,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7788,7 +7788,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7817,7 +7817,7 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 27,
     "type": "single",
-    "prompt": "关于“新型电力系统 / 新型电力系统关键技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7846,11 +7846,11 @@ export const questions: Question[] = [
     "category": "新型电力系统",
     "page": 28,
     "type": "single",
-    "prompt": "关于“新型电力系统”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“新型电力系统”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
       },
       {
         "key": "B",
@@ -7875,7 +7875,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆组成”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7883,15 +7883,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "增容：指增加电表（原本已安装的不够用，需增大容量）"
+        "text": "数智化与数字化的本质区别在于判断权的转移。"
       },
       {
         "key": "C",
-        "text": "电流互感器（Current Transformer 简称 CT 或 TA）：是依据电磁感应原理将一次侧大电流转换成二次侧小电流来测量的仪器。"
+        "text": "增容：指增加电表（原本已安装的不够用，需增大容量）"
       },
       {
         "key": "D",
-        "text": "可测：对发电功率、电压、电流等数据具备准确测量能力。"
+        "text": "电流互感器（Current Transformer 简称 CT 或 TA）：是依据电磁感应原理将一次侧大电流转换成二次侧小电流来测量的仪器。"
       }
     ],
     "correct": [
@@ -7904,7 +7904,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆组成”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7933,7 +7933,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆组成”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7962,7 +7962,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆组成”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -7991,7 +7991,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆组成”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8020,7 +8020,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8049,7 +8049,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电力电缆分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8078,7 +8078,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 29,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆附件”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8107,7 +8107,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8136,7 +8136,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8165,7 +8165,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8194,7 +8194,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆巡视”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8202,7 +8202,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
+        "text": "220/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
       },
       {
         "key": "C",
@@ -8223,7 +8223,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆巡视”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8235,7 +8235,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "220/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -8252,7 +8252,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8264,7 +8264,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "10/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -8281,7 +8281,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8310,7 +8310,7 @@ export const questions: Question[] = [
     "category": "电力电缆",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 电缆检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电力电缆”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8336,14 +8336,14 @@ export const questions: Question[] = [
   },
   {
     "id": "kp213",
-    "category": "电力电缆",
+    "category": "数字化与人工智能",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 南方电网公司基本情况”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+        "text": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
       },
       {
         "key": "B",
@@ -8361,14 +8361,14 @@ export const questions: Question[] = [
     "correct": [
       "A"
     ],
-    "answerText": "年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
+    "answerText": "2019年首次提出”数字电网“，2025年全面完成数字化转型，2026年开展数智化。"
   },
   {
     "id": "kp214",
-    "category": "电力电缆",
+    "category": "数字化与人工智能",
     "page": 30,
     "type": "single",
-    "prompt": "关于“电力电缆 / 顶层设计演进（PPT17-20)”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8397,7 +8397,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8426,7 +8426,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8455,7 +8455,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8484,7 +8484,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8513,7 +8513,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8542,7 +8542,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8571,7 +8571,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8600,7 +8600,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8629,7 +8629,7 @@ export const questions: Question[] = [
     "category": "数字化与人工智能",
     "page": 31,
     "type": "single",
-    "prompt": "关于“数字化与人工智能 / 数智化落地障碍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“数字化与人工智能”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8658,7 +8658,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 32,
     "type": "single",
-    "prompt": "关于“客户服务 / 常见名词概念”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8687,7 +8687,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 33,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8716,7 +8716,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 33,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8745,7 +8745,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 33,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8774,7 +8774,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 33,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8803,7 +8803,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 34,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务类型”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8832,7 +8832,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 34,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务类型”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8861,7 +8861,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 34,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务类型”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8890,7 +8890,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 34,
     "type": "single",
-    "prompt": "关于“业务类型 / 客服工单时限要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8919,7 +8919,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 34,
     "type": "single",
-    "prompt": "关于“业务类型 / 客服工单时限要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8948,7 +8948,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 35,
     "type": "single",
-    "prompt": "关于“业扩基础知识 / 业务扩充（简称“业扩”）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -8977,7 +8977,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9006,7 +9006,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9035,7 +9035,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9064,7 +9064,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9093,7 +9093,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9122,7 +9122,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 受理所需材料”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9151,7 +9151,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 受理所需材料”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9180,7 +9180,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 受理所需材料”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9209,7 +9209,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 流程环节及时限要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9238,7 +9238,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 流程环节及时限要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9267,7 +9267,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 常见业扩业务介绍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9296,7 +9296,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 36,
     "type": "single",
-    "prompt": "关于“客户服务 / 常见业扩业务介绍”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9325,7 +9325,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 37,
     "type": "single",
-    "prompt": "关于“客户服务 / 案例2（过户）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9354,7 +9354,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 38,
     "type": "single",
-    "prompt": "关于“客户服务 / 案例（新装用电）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9383,11 +9383,11 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 38,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务流程”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
+        "text": "220/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
       },
       {
         "key": "B",
@@ -9405,14 +9405,14 @@ export const questions: Question[] = [
     "correct": [
       "A"
     ],
-    "answerText": "/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
+    "answerText": "220/380V居民分布式光伏发电项目：并网申请→并网验收及运行"
   },
   {
     "id": "kp250",
     "category": "客户服务",
     "page": 38,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务流程”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9420,7 +9420,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "220/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "C",
@@ -9434,14 +9434,14 @@ export const questions: Question[] = [
     "correct": [
       "B"
     ],
-    "answerText": "/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+    "answerText": "220/380V非居民分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
   },
   {
     "id": "kp251",
     "category": "客户服务",
     "page": 38,
     "type": "single",
-    "prompt": "关于“客户服务 / 业务流程”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9453,7 +9453,7 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+        "text": "10/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
       },
       {
         "key": "D",
@@ -9463,14 +9463,14 @@ export const questions: Question[] = [
     "correct": [
       "C"
     ],
-    "answerText": "/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
+    "answerText": "10/20kV分布式光伏发电项目：并网申请→接入系统资料审查→并网验收及运行"
   },
   {
     "id": "kp252",
     "category": "客户服务",
     "page": 40,
     "type": "single",
-    "prompt": "关于“客户服务 / 12398能源监管热线投诉处理办法及考核要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9499,7 +9499,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 40,
     "type": "single",
-    "prompt": "关于“客户服务 / 12398能源监管热线投诉处理办法及考核要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9528,7 +9528,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 40,
     "type": "single",
-    "prompt": "关于“客户服务 / 12398能源监管热线投诉处理办法及考核要求”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9557,7 +9557,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 40,
     "type": "single",
-    "prompt": "关于“客户服务 / 95598“投诉下单”七大场景与“不下投诉”五大场景”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9586,7 +9586,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 41,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9615,7 +9615,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 41,
     "type": "single",
-    "prompt": "关于“客户服务 / 诉求处置流程及典型场景应对”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9644,7 +9644,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 42,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9673,7 +9673,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 42,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9702,7 +9702,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 42,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9731,7 +9731,7 @@ export const questions: Question[] = [
     "category": "客户服务",
     "page": 42,
     "type": "single",
-    "prompt": "关于“客户服务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“客户服务”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9760,7 +9760,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 44,
     "type": "single",
-    "prompt": "关于“电能计量 / 计量专业五大核心业务板块”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9789,7 +9789,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 46,
     "type": "single",
-    "prompt": "关于“电能计量 / 计量需要掌握的核心系统功能”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9818,7 +9818,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 46,
     "type": "single",
-    "prompt": "关于“电能计量 / 计量标准、制度、规程”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9847,7 +9847,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 48,
     "type": "single",
-    "prompt": "关于“电能计量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9876,7 +9876,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 49,
     "type": "single",
-    "prompt": "关于“电能计量 / 电能计量设备品类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9905,7 +9905,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 49,
     "type": "single",
-    "prompt": "关于“电能计量 / 电能计量设备品类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9934,7 +9934,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 49,
     "type": "single",
-    "prompt": "关于“电能计量 / 电能计量设备品类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9963,7 +9963,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 49,
     "type": "single",
-    "prompt": "关于“电能计量 / 电能计量设备品类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -9992,7 +9992,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 50,
     "type": "single",
-    "prompt": "关于“电能计量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10021,7 +10021,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 50,
     "type": "single",
-    "prompt": "关于“电能计量”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10050,7 +10050,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 其他有关内容”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10079,7 +10079,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 其他有关内容”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10108,7 +10108,7 @@ export const questions: Question[] = [
     "category": "电能计量",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 其他有关内容”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“电能计量”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10134,10 +10134,10 @@ export const questions: Question[] = [
   },
   {
     "id": "kp275",
-    "category": "电能计量",
+    "category": "主网调度",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 电力系统基础（主网调度）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10163,10 +10163,10 @@ export const questions: Question[] = [
   },
   {
     "id": "kp276",
-    "category": "电能计量",
+    "category": "主网调度",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 电力系统基础（主网调度）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10192,10 +10192,10 @@ export const questions: Question[] = [
   },
   {
     "id": "kp277",
-    "category": "电能计量",
+    "category": "主网调度",
     "page": 51,
     "type": "single",
-    "prompt": "关于“电能计量 / 电力系统基础（主网调度）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10224,7 +10224,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“主网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10253,7 +10253,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“主网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10282,7 +10282,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“主网调度 / 南网频率标准”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10311,7 +10311,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“主网调度 / 南网频率标准”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10340,7 +10340,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 52,
     "type": "single",
-    "prompt": "关于“主网调度 / 南网频率标准”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10369,7 +10369,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 53,
     "type": "single",
-    "prompt": "关于“主网调度 / 电压无功管理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10398,7 +10398,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 53,
     "type": "single",
-    "prompt": "关于“主网调度 / 操作管理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10427,7 +10427,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 53,
     "type": "single",
-    "prompt": "关于“主网调度 / 事故处理”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10456,7 +10456,7 @@ export const questions: Question[] = [
     "category": "主网调度",
     "page": 54,
     "type": "single",
-    "prompt": "关于“主网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“主网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10485,7 +10485,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 55,
     "type": "single",
-    "prompt": "关于“配网调度 / 配网调控的主要任务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10514,7 +10514,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 55,
     "type": "single",
-    "prompt": "关于“设备状态定义 / 设备四大状态”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10543,7 +10543,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 56,
     "type": "single",
-    "prompt": "关于“配网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10572,7 +10572,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 56,
     "type": "single",
-    "prompt": "关于“配网调度 / 一般操作原则”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10601,7 +10601,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 56,
     "type": "single",
-    "prompt": "关于“配网调度 / 一般操作原则”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10630,19 +10630,19 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 56,
     "type": "single",
-    "prompt": "关于“配网调度 / 一般操作原则”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "风力发电的能量转化效率理论极限（贝茨）为 59.3%，实际通常在 35%~50%。"
+        "text": "A类包含所有B类项目（整体→局部）B类包含所有C类项目（停电局部→不停电）"
       },
       {
         "key": "B",
-        "text": "国资央企面临的舆论环境：身处舆论场中央，受关注度高；社会舆论容忍度低；是自然人，更是企业人，要有谨慎言行的“被围观意识”。"
+        "text": "风力发电的能量转化效率理论极限（贝茨）为 59.3%，实际通常在 35%~50%。"
       },
       {
         "key": "C",
-        "text": "根据供电可靠性要求及中断供电危害程度，将重要客户分为特级、一级和二级。"
+        "text": "国资央企面临的舆论环境：身处舆论场中央，受关注度高；社会舆论容忍度低；是自然人，更是企业人，要有谨慎言行的“被围观意识”。"
       },
       {
         "key": "D",
@@ -10659,7 +10659,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 56,
     "type": "single",
-    "prompt": "关于“配网调度 / 一般操作原则”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10667,15 +10667,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "我国电力装机结构（截至2024/2025数据）：火电装机占比依然最高（约40-43%），太阳能发电占比位居第二，风电和水电紧随其后。"
+        "text": "A类检修：停电进行的整体检查"
       },
       {
         "key": "C",
-        "text": "四大层面舆论环境：国际环境、国内环境、媒体发展、国资央企。"
+        "text": "我国电力装机结构（截至2024/2025数据）：火电装机占比依然最高（约40-43%），太阳能发电占比位居第二，风电和水电紧随其后。"
       },
       {
         "key": "D",
-        "text": "频率是交流电振荡频率，不同国家标准不同，我国为50Hz，反映有功功率平衡。"
+        "text": "四大层面舆论环境：国际环境、国内环境、媒体发展、国资央企。"
       }
     ],
     "correct": [
@@ -10688,11 +10688,11 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 57,
     "type": "single",
-    "prompt": "关于“配网调度 / 综合停电“六步法””，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "原理：将水的位能和动能转换为电能"
+        "text": "B类检修：停电进行的局部检查（B1)，或停电/不停电进行周期性的试验工作(B2)"
       },
       {
         "key": "B",
@@ -10700,11 +10700,11 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "重要政治与社会活动期间"
+        "text": "原理：将水的位能和动能转换为电能"
       },
       {
         "key": "D",
-        "text": "输电线路的组成和功能：导线、避雷线、绝缘子、杆塔、金具、接地装置。"
+        "text": "重要政治与社会活动期间"
       }
     ],
     "correct": [
@@ -10717,15 +10717,15 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 57,
     "type": "single",
-    "prompt": "关于“配网调度 / 调度业务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "河床式：厂房大坝在同一直线，厂房起挡水作用，适用于低水头（如葛洲坝）。"
+        "text": "C类检修：不停电进行的检查。C1=一般巡维（日常巡视），C2=专业/动态巡维（特定条件）"
       },
       {
         "key": "B",
-        "text": "公司关键业务开展期"
+        "text": "河床式：厂房大坝在同一直线，厂房起挡水作用，适用于低水头（如葛洲坝）。"
       },
       {
         "key": "C",
@@ -10733,7 +10733,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "超高压输电通过提高电压、降低电流，从而显著减少线路损耗，并提升远距离大容量输电的经济性。"
+        "text": "公司关键业务开展期"
       }
     ],
     "correct": [
@@ -10746,7 +10746,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 57,
     "type": "single",
-    "prompt": "关于“配网调度 / 调度业务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10775,7 +10775,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 57,
     "type": "single",
-    "prompt": "关于“配网调度 / 调度业务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10804,7 +10804,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 57,
     "type": "single",
-    "prompt": "关于“配网调度 / 调度业务”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10833,7 +10833,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10862,7 +10862,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10891,7 +10891,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10920,7 +10920,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10949,7 +10949,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -10978,7 +10978,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11007,7 +11007,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11036,7 +11036,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11065,7 +11065,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11094,7 +11094,7 @@ export const questions: Question[] = [
     "category": "配网调度",
     "page": 58,
     "type": "single",
-    "prompt": "关于“配网调度 / 分布式电源”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“配网调度”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11120,10 +11120,10 @@ export const questions: Question[] = [
   },
   {
     "id": "kp309",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "single",
-    "prompt": "关于“A/B/C三类检修 / A/B/C检修层级包含关系”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11131,15 +11131,15 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "特殊的“降压变压器”，将高压按比例转换为标准的低电压（通常为100V），用于测量和保护"
-      },
-      {
-        "key": "C",
         "text": "美国：企业物流；日本：物流系统；欧盟：综合物流"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "舆情的传播规律分为四个阶段：潜伏期、发展期、高潮期、消退期。"
+      },
+      {
+        "key": "D",
+        "text": "终端塔：进变电站"
       }
     ],
     "correct": [
@@ -11149,14 +11149,14 @@ export const questions: Question[] = [
   },
   {
     "id": "kp310",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "single",
-    "prompt": "关于“A/B/C三类检修 / A/B/C检修层级包含关系”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "将一次侧巨大的电流转换为标准的小电流（通常为5A或1A），用于计量和继电保护。起到电流变换和电气隔离的作用。"
+        "text": "十四五现代物流发展规划明确，现代物流发展发挥着先导性、基础性、战略性作用。现代物流的主要特征包括供需适配、安全高效、内外联通、绿色智慧"
       },
       {
         "key": "B",
@@ -11164,11 +11164,11 @@ export const questions: Question[] = [
       },
       {
         "key": "C",
-        "text": "十四五现代物流发展规划明确，现代物流发展发挥着先导性、基础性、战略性作用。现代物流的主要特征包括供需适配、安全高效、内外联通、绿色智慧"
+        "text": "哈哈镜里看舆情：把吐槽、简单爆料当成大舆情（陷入“不是舆情当舆情”误区）。"
       },
       {
         "key": "D",
-        "text": "哈哈镜里看舆情：把吐槽、简单爆料当成大舆情（陷入“不是舆情当舆情”误区）。"
+        "text": "架空地线核心功能：防雷、分流、耦合、电磁屏蔽和（OPGW）通信功能。"
       }
     ],
     "correct": [
@@ -11178,18 +11178,18 @@ export const questions: Question[] = [
   },
   {
     "id": "kp311",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "single",
-    "prompt": "关于“A/B/C三类检修 / A/B/C检修层级包含关系”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "电容器：核心作用是无功补偿、提高功率因数、稳定母线电压。公式：C = Q/U。"
+        "text": "供应链由成本效率和安全稳定并重，向安全稳定优先、兼顾成本、效率转变（自主可控，风险评估，有序转移）"
       },
       {
         "key": "B",
-        "text": "供应链由成本效率和安全稳定并重，向安全稳定优先、兼顾成本、效率转变（自主可控，风险评估，有序转移）"
+        "text": "放大镜里看舆情：把小舆情→中舆情，中舆情→大舆情，放大风险感知，自我加压。"
       },
       {
         "key": "C",
@@ -11197,7 +11197,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "放大镜里看舆情：把小舆情→中舆情，中舆情→大舆情，放大风险感知，自我加压。"
+        "text": "悬垂线夹（连接导线与绝缘子）耐张线夹（固定导线于耐张段）连接金具（连接绝缘子与其他部件）保护金具（减振、防闪络、防腐蚀）接续金具（导线之间的连接），分别承担“悬、固、连、护、续”五大功能，是保障线路机械强度和电气连接的关键"
       }
     ],
     "correct": [
@@ -11207,22 +11207,22 @@ export const questions: Question[] = [
   },
   {
     "id": "kp312",
-    "category": "配网调度",
+    "category": "变电检修",
     "page": 59,
     "type": "single",
-    "prompt": "关于“A/B/C三类检修 / A/B/C检修层级包含关系”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
-        "text": "避雷器：电路中的“安全泄压阀”，防雷电及瞬时高压。当前电网普遍使用氧化锌避雷器（无间隙）。正常电压下呈高阻态，过电压时瞬间呈低阻态泄放电流。"
-      },
-      {
-        "key": "B",
         "text": "推动仓储区域化、物流市场化。供应链改革方向：层级扁平、调度集中、资源共享、内外协同"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "望远镜里看舆情：盯着别人，风吹草动就担心波及自己。"
+      },
+      {
+        "key": "C",
+        "text": "玻璃绝缘子因表面处于压缩预应力状态，一旦出现裂纹或电击穿便会自行破碎成小碎块（俗称“自爆”），便于零值检测，但需及时更换以防掉串。在运行中无需进行零值检测。"
       },
       {
         "key": "D",
@@ -11239,7 +11239,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 典型作业流程三阶段”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11268,7 +11268,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 典型作业流程三阶段”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11297,7 +11297,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 典型作业流程三阶段”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11326,7 +11326,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 高压断路器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11355,7 +11355,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 高压断路器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11384,7 +11384,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 60,
     "type": "single",
-    "prompt": "关于“变电检修 / 高压断路器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11413,7 +11413,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11429,7 +11429,7 @@ export const questions: Question[] = [
       },
       {
         "key": "D",
-        "text": "年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
+        "text": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
       }
     ],
     "correct": [
@@ -11442,7 +11442,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11471,7 +11471,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / GIS组合电器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11500,7 +11500,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / GIS组合电器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11529,7 +11529,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / GIS组合电器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11558,7 +11558,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / 高压开关柜”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11587,7 +11587,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / 变压器”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11616,7 +11616,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / 电压互感器（PT)”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11645,7 +11645,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / 电流互感器（CT）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11674,7 +11674,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 61,
     "type": "single",
-    "prompt": "关于“变电检修 / 电流互感器（CT）”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11703,7 +11703,7 @@ export const questions: Question[] = [
     "category": "变电检修",
     "page": 62,
     "type": "single",
-    "prompt": "关于“变电检修”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“变电检修”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11732,7 +11732,7 @@ export const questions: Question[] = [
     "category": "招标采购",
     "page": 64,
     "type": "single",
-    "prompt": "关于“招标采购 / 供应链：招标采购法律法规及制度”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“招标采购”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11761,7 +11761,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“发电技术 / 电力系统基础与发电效率概况”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11790,7 +11790,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“发电技术 / 电力系统基础与发电效率概况”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11819,7 +11819,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“发电技术 / 电力系统基础与发电效率概况”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11848,7 +11848,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“发电技术 / 电力系统基础与发电效率概况”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11877,7 +11877,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“发电技术 / 水力发电技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11906,7 +11906,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“水力发电技术 / 水电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11935,7 +11935,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“水力发电技术 / 水电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11964,7 +11964,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“水力发电技术 / 水电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -11993,7 +11993,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 70,
     "type": "single",
-    "prompt": "关于“水力发电技术 / 水电站分类”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12022,7 +12022,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 71,
     "type": "single",
-    "prompt": "关于“发电技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12051,7 +12051,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 71,
     "type": "single",
-    "prompt": "关于“发电技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12080,7 +12080,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 71,
     "type": "single",
-    "prompt": "关于“发电技术 / 核能发电”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12109,7 +12109,7 @@ export const questions: Question[] = [
     "category": "发电技术",
     "page": 71,
     "type": "single",
-    "prompt": "关于“发电技术 / 核能发电”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“发电技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12138,7 +12138,7 @@ export const questions: Question[] = [
     "category": "储能技术",
     "page": 72,
     "type": "single",
-    "prompt": "关于“储能技术”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“储能技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12167,7 +12167,7 @@ export const questions: Question[] = [
     "category": "储能技术",
     "page": 72,
     "type": "single",
-    "prompt": "关于“储能技术 / 抽水蓄能”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“储能技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12196,7 +12196,7 @@ export const questions: Question[] = [
     "category": "储能技术",
     "page": 72,
     "type": "single",
-    "prompt": "关于“储能技术 / 抽水蓄能”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“储能技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12225,7 +12225,7 @@ export const questions: Question[] = [
     "category": "储能技术",
     "page": 72,
     "type": "single",
-    "prompt": "关于“储能技术 / 抽水蓄能”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“储能技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12254,7 +12254,7 @@ export const questions: Question[] = [
     "category": "储能技术",
     "page": 72,
     "type": "single",
-    "prompt": "关于“储能技术 / 抽水蓄能”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“储能技术”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12283,7 +12283,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链与现代物流 / 供应链：南网现代物流体系建设通识”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12312,7 +12312,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链与现代物流 / 供应链：南网现代物流体系建设通识”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12341,7 +12341,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链与现代物流 / 供应链：南网现代物流体系建设通识”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12349,7 +12349,7 @@ export const questions: Question[] = [
       },
       {
         "key": "B",
-        "text": "年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
+        "text": "2009年11月26日电监会令第27号发布，2010年1月1日起施行，2024年1月4日修订。"
       },
       {
         "key": "C",
@@ -12370,7 +12370,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链与现代物流 / 供应链：南网现代物流体系建设通识”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12399,7 +12399,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链与现代物流 / 供应链：南网现代物流体系建设通识”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12428,7 +12428,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12457,7 +12457,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12486,7 +12486,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12515,7 +12515,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12544,7 +12544,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12573,7 +12573,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12602,7 +12602,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12631,7 +12631,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",
@@ -12660,7 +12660,7 @@ export const questions: Question[] = [
     "category": "供应链与现代物流",
     "page": 73,
     "type": "single",
-    "prompt": "关于“供应链：南网现代物流体系建设通识 / 现代物流体系架构”，以下哪项与资料原文一致？",
+    "prompt": "以下哪项属于“供应链与现代物流”知识板块的资料原文？",
     "options": [
       {
         "key": "A",

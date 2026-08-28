@@ -51,6 +51,7 @@ function cleanQuestion(line) {
     .replace(/【判断题】|【判断】|【多选题】/g, '')
     .replace(/[（(]PPT原题[)）]/g, '')
     .replace(/[（(]\s*[A-D]{1,4}\s*[)）]/g, '')
+    .replace(/[（(]\s*(?:→\s*错(?:误)?|错(?:误)?\s*→).*$/g, '')
     .replace(/[（(]\s*(?:错误|正确)[^）)]*[)）]/g, '')
     .replace(/→\s*错.*$/g, '')
     .replace(/【[^】]*】\s*$/g, '')
@@ -88,9 +89,13 @@ function sourceVerdict(line, correct) {
     ?? line.match(/→\s*错.*$/)?.[0]
     ?? '';
   const detail = rawDetail
-    .replace(/^[（(]|[)）]$/g, '')
+    .trim()
+    .replace(/^[（(]\s*|\s*[)）]+$/g, '')
+    .trim()
+    .replace(/^→\s*错(?:误)?\s*/, '')
+    .replace(/^错(?:误)?\s*→\s*/, '')
     .replace(/^(?:错误|正确)\s*[，,：:]?\s*/, '')
-    .replace(/^错\s*→\s*/, '应为：')
+    .replace(/^[（(]\s*|\s*[)）]+$/g, '')
     .trim();
   return `PDF原文判定：${verdict}${detail ? `（${detail}）` : ''}`;
 }
@@ -160,6 +165,10 @@ const overrides = {
     { key: 'A', text: '储能技术' }, { key: 'B', text: '电力电子技术' },
     { key: 'C', text: '信息技术与通信技术' }, { key: 'D', text: '电压调控技术' },
   ] },
+  q057: { category: '变电检修' },
+  q058: { category: '变电检修' },
+  q078: { category: '发电技术' },
+  q079: { category: '发电技术' },
 };
 
 for (const question of questions) {
@@ -174,12 +183,50 @@ for (const question of questions) {
 
 function stripMarker(text) {
   return text
-    .replace(/^\d+(?:\.\d+)*[.、]?\s*/, '')
+    .replace(/^(?:\d+(?:\.\d+)+(?=\s|[（(])|\d+[.、](?!\d)|\d+(?=\s))\s*/, '')
     .replace(/^[a-zA-ZivxIVX]+[.、]\s*/, '')
     .replace(/^[①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮]\s*/, '')
     .replace(/^（考点[？?]?）\s*/, '')
     .replace(/^\(考点[？?]?\)\s*/, '')
     .trim();
+}
+
+function categoryFromHeading(line) {
+  const headingMatch = line.match(/^\d+(?:\.\d+)*[.、]?\s*(.+)$/);
+  if (!headingMatch) return null;
+  const heading = headingMatch[1];
+  const categories = [
+    '数字化与人工智能',
+    '新型电力系统',
+    '供应链与现代物流',
+    '招标采购',
+    '主网调度',
+    '配网调度',
+    '变电检修',
+    '变电运行',
+    '配电运行',
+    '输电线路',
+    '电力电缆',
+    '客户服务',
+    '电能计量',
+    '储能技术',
+    '发电技术',
+    '用电检查',
+    '舆情素养',
+  ];
+  const aliases = new Map([
+    ['数字化与人工智能', /^(?:电力系统基础[（(])?数字化与人工智能/],
+    ['供应链与现代物流', /^供应链[：:].*南网现代物流体系/],
+    ['招标采购', /^供应链[：:].*招标采购/],
+    ['主网调度', /^电力系统基础[（(]主网调度/],
+    ['配网调度', /^电力系统基础[（(]配网调度/],
+    ['变电检修', /^电力系统基础[（(]变电检修/],
+    ['变电运行', /^电力系统基础[（(]变电运行/],
+    ['配电运行', /^电力系统基础[（(]配电运行/],
+    ['输电线路', /^电力系统基础[（(]输电线路/],
+    ['发电技术', /^电力系统基础[（(]发电技术/],
+  ]);
+  return categories.find((category) => (aliases.get(category) ?? new RegExp(`^${category}(?:$|\\s|[（(])`)).test(heading)) ?? null;
 }
 
 function buildKnowledgeQuestions(rawText) {
@@ -193,7 +240,7 @@ function buildKnowledgeQuestions(rawText) {
 
   rawPages.forEach((pageText, pageIndex) => {
     const pageNumber = pageIndex + 1;
-    const category = categoryForPage(pageNumber);
+    let category = categoryForPage(pageNumber);
     const sourceLines = pageText.split(/\r?\n/)
       .map((value) => value.trim().replace(/\s+/g, ' '))
       .filter((value) => value && !watermark.test(value));
@@ -228,6 +275,7 @@ function buildKnowledgeQuestions(rawText) {
         .replace(/\s+([，。；：）])/g, '$1')
         .trim();
       if (!line || line.length < 4) continue;
+      category = categoryFromHeading(line) ?? category;
       if (/免责声明|仅供备考参考|不划定考试范围|批评指正/.test(line)) continue;
       if (/例题|章节框架|考点小结/.test(line)) continue;
 
@@ -256,10 +304,6 @@ function buildKnowledgeQuestions(rawText) {
 
   const optionKeys = ['A', 'B', 'C', 'D'];
   const questionsFromPoints = points.map((point, index) => {
-    const contextParts = [point.category, point.section, point.group]
-      .filter(Boolean)
-      .filter((value, valueIndex, all) => all.indexOf(value) === valueIndex);
-    const context = contextParts.slice(-2).join(' / ');
     const distractors = [];
     const offsets = [17, 41, 73, 109, 151, 197, 239];
 
@@ -283,7 +327,7 @@ function buildKnowledgeQuestions(rawText) {
       category: point.category,
       page: point.page,
       type: 'single',
-      prompt: `关于“${context}”，以下哪项与资料原文一致？`,
+      prompt: `以下哪项属于“${point.category}”知识板块的资料原文？`,
       options: optionTexts.map((text, optionIndex) => ({ key: optionKeys[optionIndex], text })),
       correct: [optionKeys[correctPosition]],
       answerText: point.text,
