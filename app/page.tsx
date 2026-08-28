@@ -321,6 +321,25 @@ export default function Home() {
               <span className="type-badge">{currentQuestion.type === 'multiple' ? '多选题' : '单选题'}</span>
               <span className="chapter-name">{currentQuestion.category} · PDF 第 {currentQuestion.page} 页</span>
             </div>
+            <nav className="question-quick-nav" aria-label="题目导航">
+              <button className="nav-button previous-button" disabled={currentIndex === 0} onClick={previousQuestion}>← 上一题</button>
+              <button className="nav-button next-button" onClick={nextQuestion}>{currentIndex === sessionIds.length - 1 ? '查看结果' : '下一题 →'}</button>
+              <form className="jump-control" onSubmit={jumpToQuestion}>
+                <label htmlFor="jump-question">跳到</label>
+                <input
+                  id="jump-question"
+                  type="number"
+                  inputMode="numeric"
+                  min={1}
+                  max={sessionIds.length}
+                  value={jumpValue}
+                  onChange={(event) => setJumpValue(event.target.value)}
+                  aria-label={`输入 1 到 ${sessionIds.length} 之间的题号`}
+                />
+                <span>/ {sessionIds.length}</span>
+                <button type="submit" disabled={!/^\d+$/.test(jumpValue) || Number(jumpValue) < 1 || Number(jumpValue) > sessionIds.length}>跳转</button>
+              </form>
+            </nav>
             <h2>{currentQuestion.prompt}</h2>
             {currentQuestion.type === 'multiple' && !submitted && <p className="multi-hint">本题有多个正确答案，请选择全部正确选项后再提交。</p>}
 
@@ -362,26 +381,9 @@ export default function Home() {
 
             <div className="question-footer">
               <span>{submitted ? `正确选项：${currentQuestion.correct.join('、')}` : selected.length ? `已选择：${[...selected].sort().join('、')}` : '请选择答案'}</span>
-              <div className="question-actions" aria-label="题目导航">
-                <button className="nav-button" disabled={currentIndex === 0} onClick={previousQuestion}>← 上一题</button>
-                <button className="nav-button" onClick={nextQuestion}>{currentIndex === sessionIds.length - 1 ? '查看结果' : '下一题 →'}</button>
-                <form className="jump-control" onSubmit={jumpToQuestion}>
-                  <label htmlFor="jump-question">跳到</label>
-                  <input
-                    id="jump-question"
-                    type="number"
-                    inputMode="numeric"
-                    min={1}
-                    max={sessionIds.length}
-                    value={jumpValue}
-                    onChange={(event) => setJumpValue(event.target.value)}
-                    aria-label={`输入 1 到 ${sessionIds.length} 之间的题号`}
-                  />
-                  <span>/ {sessionIds.length}</span>
-                  <button type="submit" disabled={!/^\d+$/.test(jumpValue) || Number(jumpValue) < 1 || Number(jumpValue) > sessionIds.length}>跳转</button>
-                </form>
-                {!submitted && <button className="submit-button" disabled={!selected.length} onClick={submitAnswer}>提交答案</button>}
-              </div>
+              {!submitted
+                ? <button className="submit-button" disabled={!selected.length} onClick={submitAnswer}>提交答案</button>
+                : <button className="submit-button" onClick={nextQuestion}>{currentIndex === sessionIds.length - 1 ? '查看本轮结果' : '下一题 →'}</button>}
             </div>
           </article>
         </section>
